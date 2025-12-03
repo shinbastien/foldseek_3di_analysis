@@ -1,0 +1,141 @@
+Copied: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb
+
+Step 2: run foldseek createdb on each PDB
+[Auto-confirmed with --yes]
+> foldseek createdb /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb Sap_C_pdzdb
+foldseek createdb done for /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb -> /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C
+> foldseek createdb /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb Sap_C_circular_permutation_pdzdb
+foldseek createdb done for /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb -> /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation
+
+Step 3: create FASTA and 3di_original from createdb outputs (strip null param)
+[Auto-confirmed with --yes]
+Wrote FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C/Sap_C.fasta
+Wrote 10f_3di seq file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C/Sap_C_10f_3di.txt
+Wrote FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation/Sap_C_circular_permutation.fasta
+Wrote 10f_3di seq file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation/Sap_C_circular_permutation_10f_3di.txt
+
+Step 4: create 3di_new using pdb_to_3di.py and provided encoder/states
+[Auto-confirmed with --yes]
+> /home/jugipalace/miniconda3/envs/torchclean/bin/python3 /mnt/scratch/jugipalace/foldseek_new_3di/pdb_to_3di.py /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb /mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp -o /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C/Sap_C_9f_3di.txt --no-header
+============================================================
+PDB to 3Di Converter
+============================================================
+✓ Found PDB file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb
+✓ Found encoder model: /mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp/encoder.pt
+✓ Found centroids: /mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp/states.txt
+
+[Loading Models]
+  - Loading encoder...
+  - Loading centroids...
+  - Centroids shape: (20, 2)
+  - Inferred encoder input dimension: 9
+
+[Step 1] Reading PDB structure...
+  - Input file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb
+  - Total residues: 78
+  - Valid residues (non-HETATM): 78
+
+[Step 2] Adjusting virtual C-beta positions...
+
+[Step 3] Finding nearest neighbor residues...
+
+[Step 4] Calculating angular features...
+  - Residues with complete features: 76
+
+  - Features to encode: (76, 9)
+
+[Step 5] Encoding features with neural network...
+  - Encoded feature shape: (76, 2)
+
+[Step 6] Discretizing to 3Di states...
+  - Number of unique states used: 9
+
+[Step 7] Creating final 3Di sequence...
+
+[Step 8] Saving results...
+  - Output saved to: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C/Sap_C_9f_3di.txt
+
+============================================================
+✓ Conversion completed successfully!
+============================================================
+  Protein name: Sap_C
+  Total residues: 78
+  Valid 3Di states: 76
+  Invalid positions (X): 2
+  3Di sequence length: 78
+  Output file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C/Sap_C_9f_3di.txt
+============================================================
+
+
+> /home/jugipalace/miniconda3/envs/torchclean/bin/python3 /mnt/scratch/jugipalace/foldseek_new_3di/pdb_to_3di.py /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb /mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp -o /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation/Sap_C_circular_permutation_9f_3di.txt --no-header
+============================================================
+PDB to 3Di Converter
+============================================================
+✓ Found PDB file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb
+✓ Found encoder model: /mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp/encoder.pt
+✓ Found centroids: /mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp/states.txt
+
+[Loading Models]
+  - Loading encoder...
+  - Loading centroids...
+  - Centroids shape: (20, 2)
+  - Inferred encoder input dimension: 9
+
+[Step 1] Reading PDB structure...
+  - Input file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb
+  - Total residues: 78
+  - Valid residues (non-HETATM): 78
+
+[Step 2] Adjusting virtual C-beta positions...
+
+[Step 3] Finding nearest neighbor residues...
+
+[Step 4] Calculating angular features...
+  - Residues with complete features: 76
+
+  - Features to encode: (76, 9)
+
+[Step 5] Encoding features with neural network...
+  - Encoded feature shape: (76, 2)
+
+[Step 6] Discretizing to 3Di states...
+  - Number of unique states used: 7
+
+[Step 7] Creating final 3Di sequence...
+
+[Step 8] Saving results...
+  - Output saved to: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation/Sap_C_circular_permutation_9f_3di.txt
+
+============================================================
+✓ Conversion completed successfully!
+============================================================
+  Protein name: Sap_C_circular_permutation
+  Total residues: 78
+  Valid 3Di states: 76
+  Invalid positions (X): 2
+  3Di sequence length: 78
+  Output file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation/Sap_C_circular_permutation_9f_3di.txt
+============================================================
+
+
+
+Step 5: run TM-align to align the two PDBs
+[Auto-confirmed with --yes]
+> TMalign /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C.pdb /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation.pdb
+TM-align output written to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/TM_align_result.txt
+
+Step 6: parse TM-align result to get aligned residue ranges
+[Auto-confirmed with --yes]
+Parsed TM-align index ranges (0-based inclusive): ((0, 76), (6, 76))
+
+Step 8: trim original and new 3di sequences according to TM-align ranges (if parsed)
+[Auto-confirmed with --yes]
+Wrote trimmed 9f text files: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_9f_trim.txt /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation_9f_trim.txt
+Wrote trimmed 10f text files (if available): /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_10f_trim.txt /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation_10f_trim.txt
+Also created FASTA copies for ssw_test (if needed): /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_9f_trim.fasta /mnt/scratch/jugipalace/foldseek_new_3di/tmp/pairwise_3di_20251113194546/Sap_C_circular_permutation_9f_trim.fasta
+
+Step 9: run ssw_test on trimmed new_3di sequences (if created)
+[Auto-confirmed with --yes]
+[DEBUG] matrix_new chosen: training_3di_gpu_9f/tmp/sub_score.mat -> exists=True, abs=/mnt/scratch/jugipalace/foldseek_new_3di/training_3di_gpu_9f/tmp/sub_score.mat
+[DEBUG] matrix_new size=1892
+Using matrix for ssw_test (new): training_3di_gpu_9f/tmp/sub_score.mat

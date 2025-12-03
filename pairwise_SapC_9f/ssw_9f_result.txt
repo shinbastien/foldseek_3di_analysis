@@ -1,0 +1,15 @@
+target_name: Sap_C_9f_trim
+query_name: Sap_C_circular_permutation_9f_trim_x2
+optimal_alignment_score: 231	suboptimal_alignment_score: 2	strand: +	target_end: 75	query_end: 103
+
+
+
+=== Fallback used: default BLOSUM ===
+XQHLTMLLLMLTTMTTMTTTOEELTILLTTLTTILTTEEOTIITIITTTTTTOTITIITTTTTTOEDTTIMTTTTDO---
+                                           |  |||||||| |  |||||||| ||||||||     
+-------------------------------------------TMMTTTTTTOTLTMMTTTTTTOELTTIMTTTTLETEI
+
+----------------------------------
+                                  
+IITIIILIDTTITTMTTTOEEITIDITTITTIIT
+

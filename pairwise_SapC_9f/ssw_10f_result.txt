@@ -1,0 +1,15 @@
+target_name: Sap_C_10f_trim
+query_name: Sap_C_circular_permutation_10f_trim_x2
+optimal_alignment_score: 269	suboptimal_alignment_score: 15	strand: +	target_end: 77	query_end: 105
+
+
+
+=== Fallback used: default BLOSUM ===
+DQLLVLLLQLLVVLVVCVVVPDDLVRQLVCLVCSLVVDDPVRSVSNVVCCVPPVSVSNVVVVVVDDSVCSCVVVPSD---
+                                           |  |||||||| |  |||||||| |||||||| |   
+-------------------------------------------VLLVVCCVPPVLVLLVVVVVVDDLVCSCVVVPLDCPR
+
+----------------------------------
+                                  
+SSVSSNQSSVVSVVCVVVPDDSVRRNVCSVCSSV
+

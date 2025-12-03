@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+*.tmp
+*.log
+
+# Large data files
+*.dbtype
+*.index
+*.lookup
+*.source
+foldseek_results*
+
+# Training outputs (large files)
+training_3di_gpu_*/
+
+# Embedded git repositories
+ssw/tmp/ssw/
+training_3di_gpu_10f/tmp/ssw/
+
+# SLURM logs
+*.out
+slurm-*.out
+
+# Backup files
+*.backup
+*.bak
+
+# Compiled binaries
+ssw_test
+*.o
+*.a
+
+# Large scope PDB directory (if needed, can be removed)
+scope_pdb/
+
+# Run logs
+run_logs/
