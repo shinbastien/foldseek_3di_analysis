@@ -1,0 +1,12 @@
+target_name: 2hga_trim_8f_3di
+query_name: 2vsv_PDZ_8f_3di_x2
+optimal_alignment_score: 142	sub-optimal_alignment_score: NA	strand: +	target_begin: 3	target_end: 80	query_begin: 21	query_end: 103
+
+Target:           3    TKHIKJIIGJBI-BLCRKGGFMQKKMFQNAFMFB--IRAPNAAABCRIFIMGHQHKFQ--    
+                       *|**|*|***** |*****||*||||*|***|**  |*|**|||*** **|*||||*|  
+Query:            21    CKQFKIIFTDRFPBDABRFGFLQKKMGQRRIMCCTFIPAAAAAAAPN-TTMIHQHKGQGD    
+
+Target:          63    -RNFHKHFFKFJJGLGGGFMJTTK    80
+                        ***|*||******|********|
+Query:            81    XXXGHFHFKCRCPJLMKFQIFICK    103
+

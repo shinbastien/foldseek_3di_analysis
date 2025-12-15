@@ -1,59 +1,34 @@
-# Python
+# Ignore build artifacts, binaries, and temp folders
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environment
-.env
-.venv
-env/
-venv/
-
-# IDEs
-.vscode/
-.idea/
+*.pyc
+*.pyo
 *.swp
 *.swo
+.DS_Store
 
-# Temporary files
+# Large/derived data
+noncp_work/
 tmp/
-*.tmp
-*.log
-
-# Large data files
-*.dbtype
-*.index
-*.lookup
-*.source
-foldseek_results*
-
-# Training outputs (large files)
-training_3di_gpu_*/
-
-# Embedded git repositories
-ssw/tmp/ssw/
-training_3di_gpu_10f/tmp/ssw/
-
-# SLURM logs
-*.out
-slurm-*.out
-
-# Backup files
-*.backup
-*.bak
-
-# Compiled binaries
-ssw_test
-*.o
-*.a
-
-# Large scope PDB directory (if needed, can be removed)
+plots/
+# Datasets and heavy data (do not track)
 scope_pdb/
+scope40/
+cp_positive/pdb/
+cirpin/scope40/benchmark/all_pdbs/
 
-# Run logs
-run_logs/
+# SSW build & temp
+ssw/ssw_test
+ssw/tmp/
+
+# Foldseek / TM-align temporary outputs
+foldseek_*/*/tmp/
+foldseek_*/*/*.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Large result backups (do not track)
+experiments/02_8f_10f_ssw_comparison/results/backup/

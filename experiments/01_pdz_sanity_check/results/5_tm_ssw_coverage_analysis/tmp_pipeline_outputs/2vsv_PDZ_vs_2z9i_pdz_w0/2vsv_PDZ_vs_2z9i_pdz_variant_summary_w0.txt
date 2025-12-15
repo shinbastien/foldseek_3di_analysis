@@ -1,0 +1,292 @@
+Pair: 2vsv_PDZ vs 2z9i_pdz
+Run dir: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0
+w: 0
+
+TM pairs (first 200 shown):
+10	2
+11	3
+12	4
+13	5
+14	6
+15	7
+16	8
+17	9
+18	10
+19	11
+20	12
+21	15
+22	16
+23	17
+24	18
+25	19
+26	20
+27	21
+28	22
+29	23
+30	24
+31	25
+32	26
+33	27
+34	28
+35	29
+36	30
+37	31
+38	32
+39	33
+40	34
+41	35
+42	36
+43	37
+44	38
+45	39
+46	40
+47	41
+48	42
+49	43
+50	44
+51	45
+52	46
+53	47
+56	48
+57	49
+58	50
+59	51
+60	52
+61	53
+62	54
+63	55
+64	56
+65	57
+66	58
+67	59
+68	60
+69	61
+70	62
+71	64
+72	65
+73	66
+74	67
+75	68
+76	69
+77	70
+78	71
+79	72
+80	73
+81	75
+2	77
+3	78
+4	79
+5	80
+6	81
+7	82
+8	83
+9	84
+82	85
+
+Per-variant summaries:
+------------------------------------------------------------
+3di_identity: 0.4307692307692308
+3di_identity_alignment_len: 65
+3di_identity_match_count: 28
+FN: 18
+FN_Q: 14
+FN_T: 16
+FP: 4
+FP_Q: 1
+FP_T: 2
+Q3_range: (14, 80)
+Qtm_range: (2, 82)
+T3_range: (6, 73)
+TN_Q: 2
+TN_T: 6
+TP: 61
+TP_Q: 64
+TP_T: 63
+Ttm_range: (2, 85)
+block_f1_calc: 0.9000711237553343
+block_recall_tau: 0.6
+coverage_by_query: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2z9i_pdz_10f_result_coverage_query.tsv
+coverage_by_target: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2z9i_pdz_10f_result_coverage_target.tsv
+cp_ok: True
+cp_span_ok: True
+cp_wrap_ok: True
+cutpoint_s: 2
+f1: 0.8472222222222223
+jaccard: 0.7349397590361446
+lctr: 35
+len_Q3: 67
+len_Qtm: 81
+len_T3: 68
+len_Ttm: 84
+len_target: 87
+overlap_Q: 67
+overlap_T: 68
+pair: 2vsv_PDZ_vs_2z9i_pdz
+precision: 0.9384615384615385
+precision_Q: 1.0
+precision_T: 1.0
+query_name: 2vsv_PDZ
+range_query_f1: 0.9054054054054054
+range_query_precision: 1.0
+range_query_recall: 0.8271604938271605
+range_target_f1: 0.8947368421052632
+range_target_precision: 1.0
+range_target_recall: 0.8095238095238095
+recall: 0.7721518987341772
+recall_Q: 0.8271604938271605
+recall_T: 0.8095238095238095
+sens_Q_block: 0.8205128205128205
+sens_T_block: 0.7974683544303798
+spec_Q_block: 0.6666666666666666
+spec_T_block: 0.75
+ssw_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt
+ssw_pairs_count: 65
+ssw_pairs_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt.pairs.tsv
+ssw_score: 127.0
+target_name: 2z9i_pdz
+tm_align_visual: 
+tm_pairs_count: 79
+tm_pairs_list: 10-2;11-3;12-4;13-5;14-6;15-7;16-8;17-9;18-10;19-11;20-12;21-15;22-16;23-17;24-18;25-19;26-20;27-21;28-22;29-23;30-24;31-25;32-26;33-27;34-28;35-29;36-30;37-31;38-32;39-33;40-34;41-35;42-36;43-37;44-38;45-39;46-40;47-41;48-42;49-43;50-44;51-45;52-46;53-47;56-48;57-49;58-50;59-51;60-52;61-53;62-54;63-55;64-56;65-57;66-58;67-59;68-60;69-61;70-62;71-64;72-65;73-66;74-67;75-68;76-69;77-70;78-71;79-72;80-73;81-75;2-77;3-78;4-79;5-80;6-81;7-82;8-83;9-84;82-85
+tm_segs: [(2, 85)]
+union_file: 
+union_text: 
+variant: 10f
+w: 0
+
+------------------------------------------------------------
+3di_identity: 0.5396825396825397
+3di_identity_alignment_len: 63
+3di_identity_match_count: 34
+FN: 44
+FN_Q: 17
+FN_T: 19
+FP: 28
+FP_Q: 2
+FP_T: 3
+Q3_range: (1, 78)
+Qtm_range: (2, 82)
+T3_range: (1, 71)
+TN_Q: 1
+TN_T: 5
+TP: 35
+TP_Q: 61
+TP_T: 60
+Ttm_range: (2, 85)
+block_f1_calc: 0.9358896327855548
+block_recall_tau: 0.4
+coverage_by_query: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2z9i_pdz_9f_result_coverage_query.tsv
+coverage_by_target: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2z9i_pdz_9f_result_coverage_target.tsv
+cp_ok: True
+cp_span_ok: True
+cp_wrap_ok: True
+cutpoint_s: 2
+f1: 0.4929577464788733
+jaccard: 0.32710280373831774
+lctr: 17
+len_Q3: 78
+len_Qtm: 81
+len_T3: 71
+len_Ttm: 84
+len_target: 87
+overlap_Q: 77
+overlap_T: 70
+pair: 2vsv_PDZ_vs_2z9i_pdz
+precision: 0.5555555555555556
+precision_Q: 0.9871794871794872
+precision_T: 0.9859154929577465
+query_name: 2vsv_PDZ
+range_query_f1: 0.9685534591194969
+range_query_precision: 0.9871794871794872
+range_query_recall: 0.9506172839506173
+range_target_f1: 0.9032258064516129
+range_target_precision: 0.9859154929577465
+range_target_recall: 0.8333333333333334
+recall: 0.4430379746835443
+recall_Q: 0.9506172839506173
+recall_T: 0.8333333333333334
+sens_Q_block: 0.782051282051282
+sens_T_block: 0.759493670886076
+spec_Q_block: 0.3333333333333333
+spec_T_block: 0.625
+ssw_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt
+ssw_pairs_count: 63
+ssw_pairs_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt.pairs.tsv
+ssw_score: 114.0
+target_name: 2z9i_pdz
+tm_align_visual: 
+tm_pairs_count: 79
+tm_pairs_list: 10-2;11-3;12-4;13-5;14-6;15-7;16-8;17-9;18-10;19-11;20-12;21-15;22-16;23-17;24-18;25-19;26-20;27-21;28-22;29-23;30-24;31-25;32-26;33-27;34-28;35-29;36-30;37-31;38-32;39-33;40-34;41-35;42-36;43-37;44-38;45-39;46-40;47-41;48-42;49-43;50-44;51-45;52-46;53-47;56-48;57-49;58-50;59-51;60-52;61-53;62-54;63-55;64-56;65-57;66-58;67-59;68-60;69-61;70-62;71-64;72-65;73-66;74-67;75-68;76-69;77-70;78-71;79-72;80-73;81-75;2-77;3-78;4-79;5-80;6-81;7-82;8-83;9-84;82-85
+tm_segs: [(2, 85)]
+union_file: 
+union_text: 
+variant: 9f
+w: 0
+
+------------------------------------------------------------
+3di_identity: 0.4
+3di_identity_alignment_len: 75
+3di_identity_match_count: 30
+FN: 19
+FN_Q: 4
+FN_T: 9
+FP: 15
+FP_Q: 1
+FP_T: 5
+Q3_range: (2, 78)
+Qtm_range: (2, 82)
+T3_range: (1, 87)
+TN_Q: 2
+TN_T: 3
+TP: 60
+TP_Q: 74
+TP_T: 70
+Ttm_range: (2, 85)
+block_f1_calc: 0.9785698423273372
+block_recall_tau: 0.8
+coverage_by_query: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2z9i_pdz_8f_result_coverage_query.tsv
+coverage_by_target: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2z9i_pdz_8f_result_coverage_target.tsv
+cp_ok: True
+cp_span_ok: True
+cp_wrap_ok: True
+cutpoint_s: 2
+f1: 0.7792207792207794
+jaccard: 0.6382978723404256
+lctr: 31
+len_Q3: 77
+len_Qtm: 81
+len_T3: 87
+len_Ttm: 84
+len_target: 87
+overlap_Q: 77
+overlap_T: 84
+pair: 2vsv_PDZ_vs_2z9i_pdz
+precision: 0.8
+precision_Q: 1.0
+precision_T: 0.9655172413793104
+query_name: 2vsv_PDZ
+range_query_f1: 0.9746835443037974
+range_query_precision: 1.0
+range_query_recall: 0.9506172839506173
+range_target_f1: 0.9824561403508771
+range_target_precision: 0.9655172413793104
+range_target_recall: 1.0
+recall: 0.759493670886076
+recall_Q: 0.9506172839506173
+recall_T: 1.0
+sens_Q_block: 0.9487179487179487
+sens_T_block: 0.8860759493670886
+spec_Q_block: 0.6666666666666666
+spec_T_block: 0.375
+ssw_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/alignment_results/2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt
+ssw_pairs_count: 75
+ssw_pairs_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w0/2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt.pairs.tsv
+ssw_score: 168.0
+target_name: 2z9i_pdz
+tm_align_visual: 
+tm_pairs_count: 79
+tm_pairs_list: 10-2;11-3;12-4;13-5;14-6;15-7;16-8;17-9;18-10;19-11;20-12;21-15;22-16;23-17;24-18;25-19;26-20;27-21;28-22;29-23;30-24;31-25;32-26;33-27;34-28;35-29;36-30;37-31;38-32;39-33;40-34;41-35;42-36;43-37;44-38;45-39;46-40;47-41;48-42;49-43;50-44;51-45;52-46;53-47;56-48;57-49;58-50;59-51;60-52;61-53;62-54;63-55;64-56;65-57;66-58;67-59;68-60;69-61;70-62;71-64;72-65;73-66;74-67;75-68;76-69;77-70;78-71;79-72;80-73;81-75;2-77;3-78;4-79;5-80;6-81;7-82;8-83;9-84;82-85
+tm_segs: [(2, 85)]
+union_file: 
+union_text: 
+variant: 8f
+w: 0

@@ -1,0 +1,8 @@
+target_name: 2hga_trim_9f_3di
+query_name: 2vsv_PDZ_9f_3di_x2
+optimal_alignment_score: 46	sub-optimal_alignment_score: NA	strand: +	target_begin: 41	target_end: 62	query_begin: 7	query_end: 32
+
+Target:          41    TTTHLO---B--BQHERFPNBNOTJFJ    62
+                       *||*||   |  |*|* |*||*****|
+Query:             7    GTTLLOOHPBPEBBHP-FGNBJJSTOJ    32
+

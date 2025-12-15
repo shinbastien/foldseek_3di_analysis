@@ -1,0 +1,68 @@
+START: Tue 25 Nov 2025 05:31:37 PM KST
+2025-11-25 17:31:37,338 INFO: Using run directory: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1
+2025-11-25 17:31:37,431 INFO: foldseek createdb done for /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C.pdb -> /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C
+2025-11-25 17:31:37,521 INFO: foldseek createdb done for /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation.pdb -> /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation
+2025-11-25 17:31:37,521 INFO: Wrote FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C.fasta
+2025-11-25 17:31:37,522 INFO: Wrote temporary 10f token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_10f.txt
+2025-11-25 17:31:37,522 INFO: Wrote 10f FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_10f_3di.fasta and x2: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_10f_3di_x2.fasta
+2025-11-25 17:31:37,522 INFO: Removed temporary token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_10f.txt
+2025-11-25 17:31:37,528 INFO: Wrote FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation.fasta
+2025-11-25 17:31:37,529 INFO: Wrote temporary 10f token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_10f.txt
+2025-11-25 17:31:37,529 INFO: Wrote 10f FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_10f_3di.fasta and x2: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_10f_3di_x2.fasta
+2025-11-25 17:31:37,529 INFO: Removed temporary token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_10f.txt
+2025-11-25 17:31:40,462 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_8f_3di.txt
+2025-11-25 17:31:40,462 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_8f_3di.txt
+2025-11-25 17:31:43,198 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_9f_3di.txt
+2025-11-25 17:31:43,198 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_9f_3di.txt
+2025-11-25 17:31:43,198 INFO: Registered 10f variant from createdb outputs: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C/Sap_C_10f_3di.fasta, /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_circular_permutation/Sap_C_circular_permutation_10f_3di.fasta
+2025-11-25 17:31:43,200 INFO: Parsed 78 TM-align pairs from visual alignment blocks
+2025-11-25 17:31:43,201 INFO: Mapping printed TM top/bot to FASTA stems: top->(len=78) bot->(len=78)
+2025-11-25 17:31:43,206 INFO: Chosen cutpoint s=1 (mode=minj) len_target=78
+2025-11-25 17:31:43,206 INFO: Wrote TM pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/tm_pairs.tsv
+2025-11-25 17:31:43,207 INFO: Using ssw executable: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/ssw_test for variant 8f
+2025-11-25 17:31:43,207 INFO: Using substitution matrix: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/s_8f.mat for variant 8f
+2025-11-25 17:31:43,209 INFO: Wrote ssw (-c) output for 8f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt
+2025-11-25 17:31:43,234 INFO: Wrote BLAST-like output for 8f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_blast_output.txt
+2025-11-25 17:31:43,234 INFO: Using ssw executable: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/ssw_test for variant 9f
+2025-11-25 17:31:43,234 INFO: Using substitution matrix: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/s_9f.mat for variant 9f
+2025-11-25 17:31:43,236 INFO: Wrote ssw (-c) output for 9f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt
+2025-11-25 17:31:43,259 INFO: Wrote BLAST-like output for 9f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_blast_output.txt
+2025-11-25 17:31:43,259 INFO: Using ssw executable: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/ssw_test for variant 10f
+2025-11-25 17:31:43,260 INFO: Using substitution matrix (forced for 10f): /mnt/scratch/jugipalace/foldseek_new_3di/ssw/s_10f.mat for variant 10f
+2025-11-25 17:31:43,261 INFO: Wrote ssw (-c) output for 10f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt
+2025-11-25 17:31:43,284 INFO: Wrote BLAST-like output for 10f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_blast_output.txt
+2025-11-25 17:31:43,285 INFO: Found 3 ssw output files to compare
+2025-11-25 17:31:43,285 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt
+2025-11-25 17:31:43,285 INFO: Detected SSW QNAME= p2 / RNAME= p1 ordering; swapped parsed SSW pairs to match tm (p1,p2) ordering
+2025-11-25 17:31:43,285 INFO:   Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt: parsed 64 3di aligned pairs (after mod mapping)
+2025-11-25 17:31:43,285 INFO: Wrote SSW pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt.pairs.tsv
+2025-11-25 17:31:43,287 INFO: Detected global SSW->TM j-offset 0 (mode matches=38); applying correction
+2025-11-25 17:31:43,287 INFO: Comparison for Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt: TM pairs=78, 3Di pairs=64, TP=64, FP=0, FN=14
+2025-11-25 17:31:43,287 INFO:   sample matched indices: tm_idx=36->ssw_idx=26,tm_idx=37->ssw_idx=27,tm_idx=38->ssw_idx=28,tm_idx=39->ssw_idx=29,tm_idx=40->ssw_idx=30,tm_idx=41->ssw_idx=31,tm_idx=42->ssw_idx=32,tm_idx=43->ssw_idx=33,tm_idx=44->ssw_idx=34,tm_idx=45->ssw_idx=35
+2025-11-25 17:31:43,287 INFO: CP flags: wrap_ok=True span_ok=True cp_ok=True cutpoint=1 lenT=78
+2025-11-25 17:31:43,288 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt
+2025-11-25 17:31:43,288 INFO: Detected SSW QNAME= p2 / RNAME= p1 ordering; swapped parsed SSW pairs to match tm (p1,p2) ordering
+2025-11-25 17:31:43,288 INFO:   Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt: parsed 76 3di aligned pairs (after mod mapping)
+2025-11-25 17:31:43,288 INFO: Wrote SSW pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt.pairs.tsv
+2025-11-25 17:31:43,289 INFO: Detected global SSW->TM j-offset 0 (mode matches=40); applying correction
+2025-11-25 17:31:43,289 INFO: Comparison for Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt: TM pairs=78, 3Di pairs=76, TP=76, FP=0, FN=2
+2025-11-25 17:31:43,289 INFO:   sample matched indices: tm_idx=36->ssw_idx=36,tm_idx=37->ssw_idx=37,tm_idx=38->ssw_idx=38,tm_idx=39->ssw_idx=39,tm_idx=40->ssw_idx=40,tm_idx=41->ssw_idx=41,tm_idx=42->ssw_idx=42,tm_idx=43->ssw_idx=43,tm_idx=44->ssw_idx=44,tm_idx=45->ssw_idx=45
+2025-11-25 17:31:43,289 INFO: CP flags: wrap_ok=True span_ok=True cp_ok=True cutpoint=1 lenT=78
+2025-11-25 17:31:43,290 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt
+2025-11-25 17:31:43,290 INFO: Detected SSW QNAME= p2 / RNAME= p1 ordering; swapped parsed SSW pairs to match tm (p1,p2) ordering
+2025-11-25 17:31:43,290 INFO:   Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt: parsed 65 3di aligned pairs (after mod mapping)
+2025-11-25 17:31:43,290 INFO: Wrote SSW pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt.pairs.tsv
+2025-11-25 17:31:43,291 INFO: Detected global SSW->TM j-offset 0 (mode matches=17); applying correction
+2025-11-25 17:31:43,291 INFO: Comparison for Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt: TM pairs=78, 3Di pairs=65, TP=27, FP=38, FN=51
+2025-11-25 17:31:43,291 INFO:   sample matched indices: tm_idx=46->ssw_idx=38,tm_idx=47->ssw_idx=39,tm_idx=48->ssw_idx=40,tm_idx=49->ssw_idx=41,tm_idx=50->ssw_idx=42,tm_idx=51->ssw_idx=43,tm_idx=52->ssw_idx=44,tm_idx=53->ssw_idx=45,tm_idx=54->ssw_idx=46,tm_idx=55->ssw_idx=47
+2025-11-25 17:31:43,291 INFO: CP flags: wrap_ok=True span_ok=True cp_ok=True cutpoint=1 lenT=78
+2025-11-25 17:31:43,292 INFO: Variant-level: detected global SSW->TM j-offset 0 (mode matches=38); applying correction
+2025-11-25 17:31:43,293 INFO: Wrote target coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_circular_permutation_10f_result_coverage_target.tsv
+2025-11-25 17:31:43,294 INFO: Wrote query coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_circular_permutation_10f_result_coverage_query.tsv
+2025-11-25 17:31:43,295 INFO: Variant-level: detected global SSW->TM j-offset 0 (mode matches=17); applying correction
+2025-11-25 17:31:43,296 INFO: Wrote target coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_circular_permutation_9f_result_coverage_target.tsv
+2025-11-25 17:31:43,297 INFO: Wrote query coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_circular_permutation_9f_result_coverage_query.tsv
+2025-11-25 17:31:43,298 INFO: Variant-level: detected global SSW->TM j-offset 0 (mode matches=40); applying correction
+2025-11-25 17:31:43,298 INFO: Wrote target coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_circular_permutation_8f_result_coverage_target.tsv
+2025-11-25 17:31:43,299 INFO: Wrote query coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/alignment_results/Sap_C_circular_permutation_8f_result_coverage_query.tsv
+2025-11-25 17:31:43,299 INFO: Wrote horizontal variant summary to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w1/tmalign_3di_match_summary_by_variant_w1.txt

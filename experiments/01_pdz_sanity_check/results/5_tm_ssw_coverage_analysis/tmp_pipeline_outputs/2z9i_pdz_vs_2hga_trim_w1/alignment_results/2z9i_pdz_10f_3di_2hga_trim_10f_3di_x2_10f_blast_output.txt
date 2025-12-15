@@ -1,0 +1,12 @@
+target_name: 2z9i_pdz_10f_3di
+query_name: 2hga_trim_10f_3di_x2
+optimal_alignment_score: 182	sub-optimal_alignment_score: 4	strand: +	target_begin: 12	target_end: 87	query_begin: 85	query_end: 154
+
+Target:          12    DPFFATATQGHHDPFQCVVFVNDHGKGWQDKPPPGGGTNVSVVVVRRVDDAQDWIWTWID    
+                       |*****|********||**| *|*|**||*|***||***||||||******||||||** 
+Query:            85    DDQAFKAFAFADPQAQCNPF-DDGGWTWQAKVVQGGSGPVSVVVVQQPAAQQDWIWTQT-    
+
+Target:          72    HPVGDIDITITGTHDD    87
+                        |||   |||*|**||
+Query:           145    -PVG---ITIGGFGDD    154
+

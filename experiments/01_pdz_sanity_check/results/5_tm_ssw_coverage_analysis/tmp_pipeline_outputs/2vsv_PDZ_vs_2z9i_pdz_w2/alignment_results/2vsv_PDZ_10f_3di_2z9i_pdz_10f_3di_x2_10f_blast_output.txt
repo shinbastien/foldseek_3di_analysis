@@ -1,0 +1,12 @@
+target_name: 2vsv_PDZ_10f_3di
+query_name: 2z9i_pdz_10f_3di_x2
+optimal_alignment_score: 127	sub-optimal_alignment_score: NA	strand: +	target_begin: 14	target_end: 80	query_begin: 6	query_end: 73
+
+Target:          14    QFAW--DFFQFIFTAGHHCPGSSNVSPHDGQWTWQDKVPRGRRHGGSVVVVVVVSVQRG-    
+                       ||*|  |*|****|*|||*|****|***|****||||*|*|  *|**|*||||**|*** 
+Query:             6    QFDWWQDPFFATATQGHHDPFQCVVFVNDHGKGWQDKPPPG--GGTNVSVVVVRRVDDAQ    
+
+Target:          74    HMIMIDTDNP    80
+                       **|****|*|
+Query:            66    DWIWTWIDHP    73
+

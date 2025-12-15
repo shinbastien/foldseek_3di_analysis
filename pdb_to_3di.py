@@ -1,5 +1,31 @@
 #!/usr/bin/env python3
 """
+Shim module to preserve backwards compatibility after moving
+`pdb_to_3di.py` into `scripts/`.
+
+All functionality now lives in `scripts/pdb_to_3di.py`.
+"""
+
+import sys
+
+try:
+    # Re-export everything for import-time compatibility
+    from scripts.pdb_to_3di import *  # type: ignore
+except Exception as e:
+    raise ImportError(
+        "Failed to import scripts.pdb_to_3di. Ensure you run from the repo root."
+    ) from e
+
+
+def main():
+    from scripts.pdb_to_3di import main as _main  # type: ignore
+    return _main()
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+#!/usr/bin/env python3
+"""
 Convert PDB file to 3Di sequence.
 
 Usage:
@@ -31,9 +57,9 @@ import importlib
 # Try to import extract_pdb_features from one of the training_3di_gpu variants that exist
 extract_pdb_features = None
 _candidates = [
-    'training_3di_gpu_9f',
-    'training_3di_gpu_8f',
-    'training_3di_gpu_10f',
+    'encoders_and_tools.training_3di_gpu_9f',
+    'encoders_and_tools.training_3di_gpu_8f',
+    'encoders_and_tools.training_3di_gpu_10f',
 ]
 for _cand in _candidates:
     try:

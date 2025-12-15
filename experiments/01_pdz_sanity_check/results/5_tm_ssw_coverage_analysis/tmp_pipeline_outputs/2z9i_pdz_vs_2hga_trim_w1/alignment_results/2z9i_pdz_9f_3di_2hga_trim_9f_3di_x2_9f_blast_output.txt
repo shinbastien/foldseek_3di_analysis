@@ -1,0 +1,12 @@
+target_name: 2z9i_pdz_9f_3di
+query_name: 2hga_trim_9f_3di_x2
+optimal_alignment_score: 72	sub-optimal_alignment_score: NA	strand: +	target_begin: 9	target_end: 66	query_begin: 78	query_end: 138
+
+Target:           9    PGQEO-----BG-BNQNQJJSET-BHMTTHOOESJRJGHERTOOJJJJITDTTT-TDJTE    
+                       ***|*     || |*|**   |* || |****||***||*||**|    *|**| |**|*
+Query:            78    SSNEFEDXXHBGRBGQBB---EOHBH-TIOGEESNPNGHBRTTQJ----DDSOTITTTTH    
+
+Target:          69    E---BHERF    66
+                       *   *||||
+Query:           138    LOBBQHERF    138
+

@@ -1,0 +1,24 @@
+target_name: d3c3ka__10f_3di
+query_name: d8abpa__10f_3di
+optimal_alignment_score: 631	suboptimal_alignment_score: 282	strand: +	target_begin: 1	target_end: 263	query_begin: 1	query_end: 290
+
+Target:        1    DQLEEEEEFLAVVPLLRVLLVLLQQVLSVVVRHHYDYFNCNLPVVS-VVVVVVCVVVVNH    59
+                    |**|||||*****| |*||||*|**||*||***||*|***| **|| *||*|||*||| |
+Query:         1    DAEEEEEEQCPPFP-LSVLLVVLLVVLCVVPPYHYHYYHAN-DLVSLLVVLVVCLVVV-H    57
+
+Target:       60    QAYEYQHFPLNV-VVVCVSC--PQRQYEYFQF--DDP----PDPHHYEHA----QLLVVL    106
+                    |*|||*|**|** ||**|||  ****|*|**|  |*|    |*||*||||    ||||*|
+Query:        58    QEYEYAHNALQCQVVNVVSCVVSNHAYAYEAFFRDHPVLHGPLPHAYEHAPQLVQLLVQL    117
+
+Target:      107    LVVVVVLVVVP---FQ-AEEEEAEDVSHVSSVNSVVSVVVVCVVV-VGP-HYYYHYFHDQ    160
+                    *|*|||*||*|   *| |||||| |||*||*|***||*||**||| **| *|*|*||*||
+Query:       118    VVLVVVCVVLPDDLVQEAEEEEA-DVSTVSFVSNSVSNVVNNVVVPRDPVRYHYWYFPDQ    176
+
+Target:      161    ALCSLQVS-QVVQVVDPDH-GLEYEYAAPRSQLSNLVNCVVVVHDANVRYAYAYEAPGCS    218
+                    ||**|*|* *||*||*|*| **||**|**|*|*||*||*|||*|*** |*||**||  *|
+Query:       177    ALVRLLVRLLVVVVVCPSHQAYEYHGAFDRNQVSNQVNVVVVPHFLS-RAAYEGEA--LS    233
+
+Target:      219    LCVHVF-------RHWYKHDPSSVSNNVRVVSSVVCS---PDPD-YHH-DDIDTGDT    263
+                    *||*|*       **||||**||*|*||****|**||   ||*| ||* *|||||**
+Query:       234    RCVVVLPDPDDGSDFWYKHFCSSCSSNVSSNQSCCCSVPVPDDDRYHYGHDIDTGGS    290
+

@@ -1,0 +1,68 @@
+START: Tue 25 Nov 2025 05:31:07 PM KST
+2025-11-25 17:31:07,165 INFO: Using run directory: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2
+2025-11-25 17:31:07,265 INFO: foldseek createdb done for /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ.pdb -> /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ
+2025-11-25 17:31:07,362 INFO: foldseek createdb done for /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz.pdb -> /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz
+2025-11-25 17:31:07,362 INFO: Wrote FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ.fasta
+2025-11-25 17:31:07,362 INFO: Wrote temporary 10f token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_10f.txt
+2025-11-25 17:31:07,362 INFO: Wrote 10f FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_10f_3di.fasta and x2: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_10f_3di_x2.fasta
+2025-11-25 17:31:07,362 INFO: Removed temporary token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_10f.txt
+2025-11-25 17:31:07,368 INFO: Wrote FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz.fasta
+2025-11-25 17:31:07,368 INFO: Wrote temporary 10f token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_10f.txt
+2025-11-25 17:31:07,368 INFO: Wrote 10f FASTA: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_10f_3di.fasta and x2: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_10f_3di_x2.fasta
+2025-11-25 17:31:07,368 INFO: Removed temporary token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_10f.txt
+2025-11-25 17:31:10,678 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_8f_3di.txt
+2025-11-25 17:31:10,679 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_8f_3di.txt
+2025-11-25 17:31:13,801 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_9f_3di.txt
+2025-11-25 17:31:13,801 INFO: Removed intermediate token file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_9f_3di.txt
+2025-11-25 17:31:13,802 INFO: Registered 10f variant from createdb outputs: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ/2vsv_PDZ_10f_3di.fasta, /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2z9i_pdz/2z9i_pdz_10f_3di.fasta
+2025-11-25 17:31:13,803 INFO: Parsed 79 TM-align pairs from visual alignment blocks
+2025-11-25 17:31:13,803 INFO: Mapping printed TM top/bot to FASTA stems: top->(len=81) bot->(len=87)
+2025-11-25 17:31:13,805 INFO: Chosen cutpoint s=2 (mode=minj) len_target=87
+2025-11-25 17:31:13,805 INFO: Wrote TM pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/tm_pairs.tsv
+2025-11-25 17:31:13,805 INFO: Using ssw executable: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/ssw_test for variant 8f
+2025-11-25 17:31:13,805 INFO: Using substitution matrix: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/s_8f.mat for variant 8f
+2025-11-25 17:31:13,808 INFO: Wrote ssw (-c) output for 8f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt
+2025-11-25 17:31:13,832 INFO: Wrote BLAST-like output for 8f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_blast_output.txt
+2025-11-25 17:31:13,832 INFO: Using ssw executable: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/ssw_test for variant 9f
+2025-11-25 17:31:13,832 INFO: Using substitution matrix: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/s_9f.mat for variant 9f
+2025-11-25 17:31:13,834 INFO: Wrote ssw (-c) output for 9f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt
+2025-11-25 17:31:13,857 INFO: Wrote BLAST-like output for 9f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_blast_output.txt
+2025-11-25 17:31:13,857 INFO: Using ssw executable: /mnt/scratch/jugipalace/foldseek_new_3di/ssw/ssw_test for variant 10f
+2025-11-25 17:31:13,857 INFO: Using substitution matrix (forced for 10f): /mnt/scratch/jugipalace/foldseek_new_3di/ssw/s_10f.mat for variant 10f
+2025-11-25 17:31:13,859 INFO: Wrote ssw (-c) output for 10f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt
+2025-11-25 17:31:13,876 INFO: Wrote BLAST-like output for 10f to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_blast_output.txt
+2025-11-25 17:31:13,877 INFO: Found 3 ssw output files to compare
+2025-11-25 17:31:13,877 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt
+2025-11-25 17:31:13,877 INFO: Detected SSW QNAME= p2 / RNAME= p1 ordering; swapped parsed SSW pairs to match tm (p1,p2) ordering
+2025-11-25 17:31:13,877 INFO:   2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt: parsed 65 3di aligned pairs (after mod mapping)
+2025-11-25 17:31:13,877 INFO: Wrote SSW pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt.pairs.tsv
+2025-11-25 17:31:13,878 INFO: Detected global SSW->TM j-offset 0 (mode matches=61); applying correction
+2025-11-25 17:31:13,878 INFO: Comparison for 2vsv_PDZ_10f_3di_2z9i_pdz_10f_3di_x2_10f_ssw_output.txt: TM pairs=79, 3Di pairs=65, TP=65, FP=0, FN=14
+2025-11-25 17:31:13,878 INFO:   sample matched indices: tm_idx=10->ssw_idx=0,tm_idx=11->ssw_idx=1,tm_idx=12->ssw_idx=2,tm_idx=13->ssw_idx=3,tm_idx=16->ssw_idx=4,tm_idx=17->ssw_idx=5,tm_idx=18->ssw_idx=6,tm_idx=19->ssw_idx=7,tm_idx=20->ssw_idx=8,tm_idx=21->ssw_idx=9
+2025-11-25 17:31:13,878 INFO: CP flags: wrap_ok=True span_ok=True cp_ok=True cutpoint=2 lenT=87
+2025-11-25 17:31:13,879 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt
+2025-11-25 17:31:13,879 INFO: Detected SSW QNAME= p2 / RNAME= p1 ordering; swapped parsed SSW pairs to match tm (p1,p2) ordering
+2025-11-25 17:31:13,879 INFO:   2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt: parsed 75 3di aligned pairs (after mod mapping)
+2025-11-25 17:31:13,879 INFO: Wrote SSW pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt.pairs.tsv
+2025-11-25 17:31:13,880 INFO: Detected global SSW->TM j-offset 0 (mode matches=60); applying correction
+2025-11-25 17:31:13,880 INFO: Comparison for 2vsv_PDZ_8f_3di_2z9i_pdz_8f_3di_x2_8f_ssw_output.txt: TM pairs=79, 3Di pairs=75, TP=73, FP=2, FN=6
+2025-11-25 17:31:13,880 INFO:   sample matched indices: tm_idx=8->ssw_idx=10,tm_idx=9->ssw_idx=11,tm_idx=10->ssw_idx=12,tm_idx=11->ssw_idx=13,tm_idx=12->ssw_idx=14,tm_idx=13->ssw_idx=15,tm_idx=14->ssw_idx=16,tm_idx=15->ssw_idx=17,tm_idx=16->ssw_idx=18,tm_idx=17->ssw_idx=19
+2025-11-25 17:31:13,880 INFO: CP flags: wrap_ok=True span_ok=True cp_ok=True cutpoint=2 lenT=87
+2025-11-25 17:31:13,881 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt
+2025-11-25 17:31:13,881 INFO: Detected SSW QNAME= p2 / RNAME= p1 ordering; swapped parsed SSW pairs to match tm (p1,p2) ordering
+2025-11-25 17:31:13,881 INFO:   2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt: parsed 63 3di aligned pairs (after mod mapping)
+2025-11-25 17:31:13,881 INFO: Wrote SSW pairs to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt.pairs.tsv
+2025-11-25 17:31:13,882 INFO: Detected global SSW->TM j-offset 0 (mode matches=35); applying correction
+2025-11-25 17:31:13,882 INFO: Comparison for 2vsv_PDZ_9f_3di_2z9i_pdz_9f_3di_x2_9f_ssw_output.txt: TM pairs=79, 3Di pairs=63, TP=48, FP=15, FN=31
+2025-11-25 17:31:13,882 INFO:   sample matched indices: tm_idx=19->ssw_idx=15,tm_idx=20->ssw_idx=16,tm_idx=21->ssw_idx=17,tm_idx=22->ssw_idx=18,tm_idx=23->ssw_idx=19,tm_idx=24->ssw_idx=20,tm_idx=25->ssw_idx=21,tm_idx=26->ssw_idx=22,tm_idx=27->ssw_idx=23,tm_idx=28->ssw_idx=24
+2025-11-25 17:31:13,882 INFO: CP flags: wrap_ok=True span_ok=True cp_ok=True cutpoint=2 lenT=87
+2025-11-25 17:31:13,883 INFO: Variant-level: detected global SSW->TM j-offset 0 (mode matches=61); applying correction
+2025-11-25 17:31:13,884 INFO: Wrote target coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2z9i_pdz_10f_result_coverage_target.tsv
+2025-11-25 17:31:13,885 INFO: Wrote query coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2z9i_pdz_10f_result_coverage_query.tsv
+2025-11-25 17:31:13,886 INFO: Variant-level: detected global SSW->TM j-offset 0 (mode matches=35); applying correction
+2025-11-25 17:31:13,886 INFO: Wrote target coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2z9i_pdz_9f_result_coverage_target.tsv
+2025-11-25 17:31:13,887 INFO: Wrote query coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2z9i_pdz_9f_result_coverage_query.tsv
+2025-11-25 17:31:13,887 INFO: Variant-level: detected global SSW->TM j-offset 0 (mode matches=60); applying correction
+2025-11-25 17:31:13,888 INFO: Wrote target coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2z9i_pdz_8f_result_coverage_target.tsv
+2025-11-25 17:31:13,888 INFO: Wrote query coverage view to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/alignment_results/2z9i_pdz_8f_result_coverage_query.tsv
+2025-11-25 17:31:13,888 INFO: Wrote horizontal variant summary to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/2vsv_PDZ_vs_2z9i_pdz_w2/tmalign_3di_match_summary_by_variant_w2.txt

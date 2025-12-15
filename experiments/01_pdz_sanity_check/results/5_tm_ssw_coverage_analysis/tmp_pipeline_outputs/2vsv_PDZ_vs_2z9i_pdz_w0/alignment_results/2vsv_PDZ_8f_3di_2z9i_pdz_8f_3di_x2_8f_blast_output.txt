@@ -1,0 +1,12 @@
+target_name: 2vsv_PDZ_8f_3di
+query_name: 2z9i_pdz_8f_3di_x2
+optimal_alignment_score: 168	sub-optimal_alignment_score: NA	strand: +	target_begin: 2	target_end: 78	query_begin: 78	query_end: 158
+
+Target:           2    GHFHF-KCRCP--JLMKFQIFIC--KQFKIIFTDRFPBDABRFGFLQKKMGQRRIMCCTF    
+                       ||*|* |****  ***|*|****  *|||*||*******|*|*||*|*|||**|**  **
+Query:            78    GHKHKMKIGXXFKIBTKGQFIGRIKFQFKTIFIGLIBCLAMRTGFMQFKMGHLRJK--FM    
+
+Target:          62    IPAAAAAAAPN-TTMIHQHKGQG    78
+                       **|*|||***| *|**|*|**||
+Query:           138    FLABAAANBBNGGTBGHHHQHQG    158
+

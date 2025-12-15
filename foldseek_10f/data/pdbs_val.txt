@@ -1,0 +1,1 @@
+../../training_3di_gpu_8f/data/pdbs_val.txt

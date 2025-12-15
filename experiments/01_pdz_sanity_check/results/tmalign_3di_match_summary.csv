@@ -1,0 +1,4 @@
+ssw_file,n_tm_pairs,n_3di_pairs,TP,FP,FN,precision,recall,f1,jaccard
+tmalign_check_out/alignment_results/2hga_trim_10f_2z9i_pdz_10f_x2_10f_ssw_output.txt,0,63,0,63,0,0.0,0.0,0.0,0.0
+tmalign_check_out/alignment_results/2hga_trim_8f_2z9i_pdz_8f_x2_8f_ssw_output.txt,0,76,0,76,0,0.0,0.0,0.0,0.0
+tmalign_check_out/alignment_results/2hga_trim_9f_2z9i_pdz_9f_x2_9f_ssw_output.txt,0,64,0,64,0,0.0,0.0,0.0,0.0

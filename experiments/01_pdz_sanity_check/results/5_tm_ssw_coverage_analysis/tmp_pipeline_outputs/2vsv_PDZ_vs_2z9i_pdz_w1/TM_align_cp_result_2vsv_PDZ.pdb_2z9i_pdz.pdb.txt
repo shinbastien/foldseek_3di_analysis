@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /mnt/scratch/jugipalace/foldseek_new_3di/permutation_examples/2vsv_PDZ.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /mnt/scratch/jugipalace/foldseek_new_3di/permutation_examples/2z9i_pdz.pdb
+Length of Chain_1: 81 residues
+Length of Chain_2: 87 residues
+
+Aligned length= 79, RMSD=   1.79, Seq_ID=n_identical/n_aligned= 0.114
+TM-score= 0.79809 (if normalized by length of Chain_1, i.e., LN=81, d0=3.21)
+TM-score= 0.75305 (if normalized by length of Chain_2, i.e., LN=87, d0=3.36)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+-EGDLGFTLRGN--APVQVHFLDPYCSASVAGAREGDYIVSIQLVDCKWLTLSEVMKLLKSFGE-DEIEMKVVSL-L*-PRSIRFTAE--
+ .:::::::::.  :::::::::::::::::::::::::::::::::  ::::::::::::::: :::::::::: :  :::::::::  
+SHASLGVQVTNDKTLGAKIVEVVAGGAAANAGVPKGVVVTKVDDRPI--NSADALVAAVRSKAPGATVALTFQDPSG-GSRTVQVTLGKA
+
+Total CPU time is  0.02 seconds
+

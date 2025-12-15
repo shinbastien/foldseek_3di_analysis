@@ -1,0 +1,43 @@
+Variant summary:
+   variant tm_pairs_count ssw_pairs_count         TP         FP         FN  precision     recall         f1    jaccard range_target_f1 range_query_f1       lctr block_recall_tau      cp_ok cutpoint_s len_target
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       10f         75         63         23         40         52   0.365079   0.306667   0.333333        0.2   0.981132   0.896104         35   0.666667       True          2         81
+        9f         75         21         10         11         65    0.47619   0.133333   0.208333   0.116279   0.461538   0.415094         10          0       True          2         81
+        8f         75         77         44         33         31   0.571429   0.586667   0.578947   0.407407   0.981132   0.962963         21   0.666667       True          2         81
+
+
+============================================================
+Coverage by target (10f):
+Idx:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81
+TM  :  P  R  S  I  R  F  T  A  E  E  G  D  L  G  F  T  L  R  G  N  A  P  V  Q  V  H  F  L  D  P  Y  C  S  A  S  V     G  A  R  E  G  D  Y  I  V  S  I  Q  L  V  D        W  L  T  L  S  E  V  M  K  L  L  K  S  F  G  E  D  E  I  E  M  K  V  V         
+SSW :                                   N  V  Q  F  A  W  D  F  F                    G  H  H  C  P  G  S  S     V  S  P  H  D  G  Q  W  T  W  Q  D  K  V  P  R  G  R  R  H  G  G  S  V  V  V  V  V  V  V  S  V  Q  R  G  H  M  I  M  I  D  T  D  N  P  D
+
+Coverage by query (10f):
+Idx:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85
+TM  :        D  G  V  Q  I  D  S  V  V  P  G  S  P  A  S  K  V  L  T  P  G  L  V  I  E  S  I  N  G  M  P  T  S  N  L  T  T  Y  S  A  A  L  K  T  I  S  V  G     V  I  N  I  T  T  D  Q  G  T  F  H  L  K  T  G  R                       A  Y  M  G  I  R  T  S  N   
+SSW :     Q  A  F  K  A  F  A  F  A  D  P  Q  A  Q  C  N  P  F  D  D  G  G  W  T  W  Q  A  K  V  V  Q  G  G  S  G  P  V  S  V  V  V  V  Q  Q  P  A  A  Q  Q  D  W  I                       I  T  I  G  G  F  G  D  D  D  P                                          
+
+
+============================================================
+Coverage by target (9f):
+Idx:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81
+TM  :  P  R  S  I  R  F  T  A  E  E  G  D  L  G  F  T  L  R  G  N  A  P  V  Q  V  H  F  L  D  P  Y  C  S  A  S  V     G  A  R  E  G  D  Y  I  V  S  I  Q  L  V  D        W  L  T  L  S  E  V  M  K  L  L  K  S  F  G  E  D  E  I  E  M  K  V  V         
+SSW :                                                                                                                                                                    J  J  J  D  T  T           T        T  M  J  J  O  F  F  F  N  E  N  E  I  X   
+
+Coverage by query (9f):
+Idx:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85
+TM  :        D  G  V  Q  I  D  S  V  V  P  G  S  P  A  S  K  V  L  T  P  G  L  V  I  E  S  I  N  G  M  P  T  S  N  L  T  T  Y  S  A  A  L  K  T  I  S  V  G     V  I  N  I  T  T  D  Q  G  T  F  H  L  K  T  G  R                       A  Y  M  G  I  R  T  S  N   
+SSW :                                                                                                                          T  T  T  H  L  O  B  B  Q  H  E     F  P  N  B  N  O  T  J  F  J                                                                     
+
+
+============================================================
+Coverage by target (8f):
+Idx:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81
+TM  :  P  R  S  I  R  F  T  A  E  E  G  D  L  G  F  T  L  R  G  N  A  P  V  Q  V  H  F  L  D  P  Y  C  S  A  S  V     G  A  R  E  G  D  Y  I  V  S  I  Q  L  V  D        W  L  T  L  S  E  V  M  K  L  L  K  S  F  G  E  D  E  I  E  M  K  V  V         
+SSW :  X  G  H  F  H  F  K  C  R  C  P  J  L  M  K  F  Q  I  F  I  C  K  Q  F  K  I  I  F  T  D     F  P  B  D  A  B  R  F  G  F  L  Q  K  K  M  G  Q  R  R  I  M        T  F  I  P  A  A  A  A  A  A  A  P  N  T  T  M  I  H  Q  H  K           D  X  X
+
+Coverage by query (8f):
+Idx:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85
+TM  :        D  G  V  Q  I  D  S  V  V  P  G  S  P  A  S  K  V  L  T  P  G  L  V  I  E  S  I  N  G  M  P  T  S  N  L  T  T  Y  S  A  A  L  K  T  I  S  V  G     V  I  N  I  T  T  D  Q  G  T  F  H  L  K  T  G  R                       A  Y  M  G  I  R  T  S  N   
+SSW :        T  K  H  I  K  J  I  I  G  J  B  I  B  L  C  R  K  G  G  F  M  Q  K  K  M  F  Q  N  A  F  M  F  B  I  R  A  P  N  A  A  A  B  C  R     F  I  M  G  H  Q  H  K  F  Q  R  N  F  H  K  H  F  F  K  F  J  J  G  L  G  G  G  F  M  J  T  T  K               
+

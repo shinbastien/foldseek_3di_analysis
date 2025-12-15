@@ -1,0 +1,12 @@
+target_name: Sap_C_9f_3di
+query_name: Sap_C_circular_permutation_9f_3di_x2
+optimal_alignment_score: 173	sub-optimal_alignment_score: NA	strand: +	target_begin: 11	target_end: 75	query_begin: 18	query_end: 116
+
+Target:          11    LTTMTTMTTTOEELTI-----LLT----T---L--TTI----LTTEEOTI-I----TIIT    
+                       ||*|||*|||||**||     |*|    |   |  |||    *|*||*|| |    ||||
+Query:            18    LTMMTTTTTTOELTTIMTTTTLETEIIITIIILIDTTITTMTTTOEEITIDITTITTIIT    
+
+Target:          71    T---------TTTTOTITII--TTTTTTOEDTTIMTTTT    75
+                       *         ||||*|*|**  ||||||||*||||||||
+Query:            78    XXEOTLLTMMTTTTTTOTLTMMTTTTTTOELTTIMTTTT    116
+

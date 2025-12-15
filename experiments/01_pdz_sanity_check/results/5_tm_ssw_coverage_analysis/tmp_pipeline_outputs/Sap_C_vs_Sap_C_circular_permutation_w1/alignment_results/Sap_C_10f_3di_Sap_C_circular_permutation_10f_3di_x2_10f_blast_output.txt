@@ -1,0 +1,12 @@
+target_name: Sap_C_10f_3di
+query_name: Sap_C_circular_permutation_10f_3di_x2
+optimal_alignment_score: 136	sub-optimal_alignment_score: NA	strand: +	target_begin: 12	target_end: 75	query_begin: 53	query_end: 116
+
+Target:          12    VVLVVCVVVPDDLVRQLVCLVCSLVVDDPVRSVSNVVCCVPPVSVSNVVVVVVDDSVCSC    
+                       ||*|||||||||*||**||*|||*|*||||**|**||||||||*|**||||||||*||||
+Query:            53    VVSVVCVVVPDDSVRRNVCSVCSSVDDDPVQLVLLVVCCVPPVLVLLVVVVVVDDLVCSC    
+
+Target:          72    VVVP    75
+                       ||||
+Query:           113    VVVP    116
+

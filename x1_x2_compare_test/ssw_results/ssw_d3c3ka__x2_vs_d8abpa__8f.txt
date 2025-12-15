@@ -1,0 +1,20 @@
+target_name: d3c3ka__8f_3di
+query_name: d8abpa__8f_3di
+optimal_alignment_score: 198	suboptimal_alignment_score: 198	strand: +	target_begin: 6	target_end: 202	query_begin: 5	query_end: 220
+
+Target:        6    ESSKAINRJBOBADDALDLBALOLANBIIEGSFN---RLCJLABAANNNLNAA--AARIT    60
+                    |||****|**|*||||*| *|**||** *|||**   |    *********||  ||*||
+Query:         5    ESSELJRRFNOPADDAAD-DAADLAAR-REGSJSGGIR----GDNPPPAAOAACOAAAIT    58
+
+Target:       61    GSSE-LIFRDDNALALNPTJB------TMSESFCKGG-----RRGRIGESGGCDDANDAA    108
+                    |*|| **|  |****|***||      **| |**|||     *|*||**||***||*|||
+Query:        59    GESEJILF--DRLCNLPAAOBLAOLIFSIS-SJKKGGGRAOIKRPRIJSSGERPDALDAA    115
+
+Target:      109    AAAADLAA-LK-TG----SESS--F---EGLBILDPADDAADAAALNLNANI-RISES-G    155
+                    **||**|| |* *|    |*||  |   ******||||||||   | |*|** |**|* *
+Query:       116    BLAAPAAANLAONGJONCSFSSEEFJAOKAOMADDPADDAAD---L-LAARCJRNBEGEK    171
+
+Target:      156    EMJGPIDLBDNA-BCAAPNNGRJIFPESSSJIRBDBP-DDOADCLANLI    202
+                    |**|**|*||*| **||*||*|****|||*******| ||*||*||**|
+Query:       172    EKRGCFDNBDAABDDAAANNJRPGCIESSGKGFJBDPADDBADALAARI    220
+

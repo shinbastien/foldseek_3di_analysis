@@ -1,0 +1,555 @@
+2025-11-23 21:53:39,634 INFO: Using run dir: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/tmalign_3di_20251123215333
+2025-11-23 21:53:39,634 INFO: TM pairs count= 75
+2025-11-23 21:53:39,635 DEBUG: TM pairs (first 50): [(19, 1), (20, 2), (21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10), (29, 11), (30, 12), (31, 13), (32, 14), (33, 15), (34, 16), (35, 17), (36, 18), (37, 19), (39, 20), (40, 21), (41, 22), (42, 23), (43, 24), (44, 25), (45, 26), (46, 27), (47, 28), (48, 29), (49, 30), (50, 31), (51, 32), (52, 33), (53, 34), (56, 35), (57, 36), (58, 37), (59, 38), (60, 39), (61, 40), (62, 41), (63, 42), (64, 43), (65, 44), (66, 45), (67, 46), (68, 47), (69, 48), (70, 49), (71, 51)]
+2025-11-23 21:53:39,635 INFO: Detailed inspect log will be written to /mnt/scratch/jugipalace/foldseek_new_3di/tmp/tmalign_3di_20251123215333/inspect_pairs_verbose.log
+2025-11-23 21:53:39,635 DEBUG: TM_align snippet not found at /mnt/scratch/jugipalace/foldseek_new_3di/tmp/tmalign_3di_20251123215333/TM_align_cp_result_snippet.txt
+2025-11-23 21:53:39,636 INFO: Chosen cutpoint s=1 len_target=83
+2025-11-23 21:53:39,636 INFO: Found 3 ssw output files
+2025-11-23 21:53:39,636 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/tmalign_3di_20251123215333/alignment_results/2hga_trim_9f_3di_2vsv_PDZ_9f_3di_x2_9f_ssw_output.txt
+2025-11-23 21:53:39,636 DEBUG: Inferred query_duped_len=128 from fasta 2vsv_PDZ_9f_3di_x2
+2025-11-23 21:53:39,636 INFO: Parsing SAM entry qname=2vsv_PDZ_9f_3di_x2 flag=0 rname=2hga_trim_9f_3di pos=41 cigar=6S1X2=1X2=3I1=2I1=1X1=1X1D1=1X2=5X1=224S seq_len=256 query_duped_len=128
+2025-11-23 21:53:39,636 INFO: Parsing SAM entry qname=2vsv_PDZ_9f_3di_x2 flag=0 rname=2hga_trim_9f_3di pos=41 cigar=6S1X2=1X2=3I1=2I1=1X1=1X1D1=1X2=5X1=224S seq_len=256 query_duped_len=128
+2025-11-23 21:53:39,636 INFO:  CIGAR op 6S: before ref_pos=41 query_pos=1
+2025-11-23 21:53:39,636 INFO:  CIGAR op 6S: before ref_pos=41 query_pos=1
+2025-11-23 21:53:39,637 INFO:   -> soft-clip: advance query_pos by 6 (1->7)
+2025-11-23 21:53:39,637 INFO:   -> soft-clip: advance query_pos by 6 (1->7)
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=41 query_pos=7
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=41 query_pos=7
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=41 query(raw)=7 query(mapped)=7
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=41 query(raw)=7 query(mapped)=7
+2025-11-23 21:53:39,637 INFO:  CIGAR op 2=: before ref_pos=42 query_pos=8
+2025-11-23 21:53:39,637 INFO:  CIGAR op 2=: before ref_pos=42 query_pos=8
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=42 query(raw)=8 query(mapped)=8
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=42 query(raw)=8 query(mapped)=8
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=1: ref=43 query(raw)=9 query(mapped)=9
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=1: ref=43 query(raw)=9 query(mapped)=9
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=44 query_pos=10
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=44 query_pos=10
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=44 query(raw)=10 query(mapped)=10
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=44 query(raw)=10 query(mapped)=10
+2025-11-23 21:53:39,637 INFO:  CIGAR op 2=: before ref_pos=45 query_pos=11
+2025-11-23 21:53:39,637 INFO:  CIGAR op 2=: before ref_pos=45 query_pos=11
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=45 query(raw)=11 query(mapped)=11
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=45 query(raw)=11 query(mapped)=11
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=1: ref=46 query(raw)=12 query(mapped)=12
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=1: ref=46 query(raw)=12 query(mapped)=12
+2025-11-23 21:53:39,637 INFO:  CIGAR op 3I: before ref_pos=47 query_pos=13
+2025-11-23 21:53:39,637 INFO:  CIGAR op 3I: before ref_pos=47 query_pos=13
+2025-11-23 21:53:39,637 INFO:   -> insertion: advance query_pos by 3 (13->16)
+2025-11-23 21:53:39,637 INFO:   -> insertion: advance query_pos by 3 (13->16)
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1=: before ref_pos=47 query_pos=16
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1=: before ref_pos=47 query_pos=16
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=47 query(raw)=16 query(mapped)=16
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=47 query(raw)=16 query(mapped)=16
+2025-11-23 21:53:39,637 INFO:  CIGAR op 2I: before ref_pos=48 query_pos=17
+2025-11-23 21:53:39,637 INFO:  CIGAR op 2I: before ref_pos=48 query_pos=17
+2025-11-23 21:53:39,637 INFO:   -> insertion: advance query_pos by 2 (17->19)
+2025-11-23 21:53:39,637 INFO:   -> insertion: advance query_pos by 2 (17->19)
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1=: before ref_pos=48 query_pos=19
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1=: before ref_pos=48 query_pos=19
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=48 query(raw)=19 query(mapped)=19
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=48 query(raw)=19 query(mapped)=19
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=49 query_pos=20
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=49 query_pos=20
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=49 query(raw)=20 query(mapped)=20
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=49 query(raw)=20 query(mapped)=20
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1=: before ref_pos=50 query_pos=21
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1=: before ref_pos=50 query_pos=21
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=50 query(raw)=21 query(mapped)=21
+2025-11-23 21:53:39,637 INFO:   -> aligned col k=0: ref=50 query(raw)=21 query(mapped)=21
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=51 query_pos=22
+2025-11-23 21:53:39,637 INFO:  CIGAR op 1X: before ref_pos=51 query_pos=22
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=51 query(raw)=22 query(mapped)=22
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=51 query(raw)=22 query(mapped)=22
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1D: before ref_pos=52 query_pos=23
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1D: before ref_pos=52 query_pos=23
+2025-11-23 21:53:39,638 INFO:   -> deletion: advance ref_pos by 1 (52->53)
+2025-11-23 21:53:39,638 INFO:   -> deletion: advance ref_pos by 1 (52->53)
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1=: before ref_pos=53 query_pos=23
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1=: before ref_pos=53 query_pos=23
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=53 query(raw)=23 query(mapped)=23
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=53 query(raw)=23 query(mapped)=23
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1X: before ref_pos=54 query_pos=24
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1X: before ref_pos=54 query_pos=24
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=54 query(raw)=24 query(mapped)=24
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=54 query(raw)=24 query(mapped)=24
+2025-11-23 21:53:39,638 INFO:  CIGAR op 2=: before ref_pos=55 query_pos=25
+2025-11-23 21:53:39,638 INFO:  CIGAR op 2=: before ref_pos=55 query_pos=25
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=55 query(raw)=25 query(mapped)=25
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=55 query(raw)=25 query(mapped)=25
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=1: ref=56 query(raw)=26 query(mapped)=26
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=1: ref=56 query(raw)=26 query(mapped)=26
+2025-11-23 21:53:39,638 INFO:  CIGAR op 5X: before ref_pos=57 query_pos=27
+2025-11-23 21:53:39,638 INFO:  CIGAR op 5X: before ref_pos=57 query_pos=27
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=57 query(raw)=27 query(mapped)=27
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=57 query(raw)=27 query(mapped)=27
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=1: ref=58 query(raw)=28 query(mapped)=28
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=1: ref=58 query(raw)=28 query(mapped)=28
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=2: ref=59 query(raw)=29 query(mapped)=29
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=2: ref=59 query(raw)=29 query(mapped)=29
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=3: ref=60 query(raw)=30 query(mapped)=30
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=3: ref=60 query(raw)=30 query(mapped)=30
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=4: ref=61 query(raw)=31 query(mapped)=31
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=4: ref=61 query(raw)=31 query(mapped)=31
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1=: before ref_pos=62 query_pos=32
+2025-11-23 21:53:39,638 INFO:  CIGAR op 1=: before ref_pos=62 query_pos=32
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=62 query(raw)=32 query(mapped)=32
+2025-11-23 21:53:39,638 INFO:   -> aligned col k=0: ref=62 query(raw)=32 query(mapped)=32
+2025-11-23 21:53:39,638 INFO:  CIGAR op 224S: before ref_pos=63 query_pos=33
+2025-11-23 21:53:39,638 INFO:  CIGAR op 224S: before ref_pos=63 query_pos=33
+2025-11-23 21:53:39,638 INFO:   -> soft-clip: advance query_pos by 224 (33->257)
+2025-11-23 21:53:39,638 INFO:   -> soft-clip: advance query_pos by 224 (33->257)
+2025-11-23 21:53:39,638 INFO:   2hga_trim_9f_3di_2vsv_PDZ_9f_3di_x2_9f_ssw_output.txt: parsed 21 3di aligned pairs (after mod mapping)
+2025-11-23 21:53:39,639 INFO: Detected global SSW->TM j-offset 35; applying correction
+2025-11-23 21:53:39,639 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/tmalign_3di_20251123215333/alignment_results/2hga_trim_10f_3di_2vsv_PDZ_10f_3di_x2_10f_ssw_output.txt
+2025-11-23 21:53:39,639 DEBUG: Inferred query_duped_len=81 from fasta 2vsv_PDZ_10f_3di_x2
+2025-11-23 21:53:39,639 INFO: Parsing SAM entry qname=2vsv_PDZ_10f_3di_x2 flag=0 rname=2hga_trim_10f_3di pos=2 cigar=13S1=4X1=3X6I6X1=1X1I2X2=1X4=1X2=2X1=5X5=5X1=4X7D1=1X1=5X2=1X79S seq_len=162 query_duped_len=81
+2025-11-23 21:53:39,639 INFO: Parsing SAM entry qname=2vsv_PDZ_10f_3di_x2 flag=0 rname=2hga_trim_10f_3di pos=2 cigar=13S1=4X1=3X6I6X1=1X1I2X2=1X4=1X2=2X1=5X5=5X1=4X7D1=1X1=5X2=1X79S seq_len=162 query_duped_len=81
+2025-11-23 21:53:39,639 INFO:  CIGAR op 13S: before ref_pos=2 query_pos=1
+2025-11-23 21:53:39,639 INFO:  CIGAR op 13S: before ref_pos=2 query_pos=1
+2025-11-23 21:53:39,639 INFO:   -> soft-clip: advance query_pos by 13 (1->14)
+2025-11-23 21:53:39,639 INFO:   -> soft-clip: advance query_pos by 13 (1->14)
+2025-11-23 21:53:39,639 INFO:  CIGAR op 1=: before ref_pos=2 query_pos=14
+2025-11-23 21:53:39,639 INFO:  CIGAR op 1=: before ref_pos=2 query_pos=14
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=0: ref=2 query(raw)=14 query(mapped)=14
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=0: ref=2 query(raw)=14 query(mapped)=14
+2025-11-23 21:53:39,639 INFO:  CIGAR op 4X: before ref_pos=3 query_pos=15
+2025-11-23 21:53:39,639 INFO:  CIGAR op 4X: before ref_pos=3 query_pos=15
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=0: ref=3 query(raw)=15 query(mapped)=15
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=0: ref=3 query(raw)=15 query(mapped)=15
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=1: ref=4 query(raw)=16 query(mapped)=16
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=1: ref=4 query(raw)=16 query(mapped)=16
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=2: ref=5 query(raw)=17 query(mapped)=17
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=2: ref=5 query(raw)=17 query(mapped)=17
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=3: ref=6 query(raw)=18 query(mapped)=18
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=3: ref=6 query(raw)=18 query(mapped)=18
+2025-11-23 21:53:39,639 INFO:  CIGAR op 1=: before ref_pos=7 query_pos=19
+2025-11-23 21:53:39,639 INFO:  CIGAR op 1=: before ref_pos=7 query_pos=19
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=0: ref=7 query(raw)=19 query(mapped)=19
+2025-11-23 21:53:39,639 INFO:   -> aligned col k=0: ref=7 query(raw)=19 query(mapped)=19
+2025-11-23 21:53:39,639 INFO:  CIGAR op 3X: before ref_pos=8 query_pos=20
+2025-11-23 21:53:39,639 INFO:  CIGAR op 3X: before ref_pos=8 query_pos=20
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=8 query(raw)=20 query(mapped)=20
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=8 query(raw)=20 query(mapped)=20
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=9 query(raw)=21 query(mapped)=21
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=9 query(raw)=21 query(mapped)=21
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=2: ref=10 query(raw)=22 query(mapped)=22
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=2: ref=10 query(raw)=22 query(mapped)=22
+2025-11-23 21:53:39,640 INFO:  CIGAR op 6I: before ref_pos=11 query_pos=23
+2025-11-23 21:53:39,640 INFO:  CIGAR op 6I: before ref_pos=11 query_pos=23
+2025-11-23 21:53:39,640 INFO:   -> insertion: advance query_pos by 6 (23->29)
+2025-11-23 21:53:39,640 INFO:   -> insertion: advance query_pos by 6 (23->29)
+2025-11-23 21:53:39,640 INFO:  CIGAR op 6X: before ref_pos=11 query_pos=29
+2025-11-23 21:53:39,640 INFO:  CIGAR op 6X: before ref_pos=11 query_pos=29
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=11 query(raw)=29 query(mapped)=29
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=11 query(raw)=29 query(mapped)=29
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=12 query(raw)=30 query(mapped)=30
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=12 query(raw)=30 query(mapped)=30
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=2: ref=13 query(raw)=31 query(mapped)=31
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=2: ref=13 query(raw)=31 query(mapped)=31
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=3: ref=14 query(raw)=32 query(mapped)=32
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=3: ref=14 query(raw)=32 query(mapped)=32
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=4: ref=15 query(raw)=33 query(mapped)=33
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=4: ref=15 query(raw)=33 query(mapped)=33
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=5: ref=16 query(raw)=34 query(mapped)=34
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=5: ref=16 query(raw)=34 query(mapped)=34
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1=: before ref_pos=17 query_pos=35
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1=: before ref_pos=17 query_pos=35
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=17 query(raw)=35 query(mapped)=35
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=17 query(raw)=35 query(mapped)=35
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1X: before ref_pos=18 query_pos=36
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1X: before ref_pos=18 query_pos=36
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=18 query(raw)=36 query(mapped)=36
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=18 query(raw)=36 query(mapped)=36
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1I: before ref_pos=19 query_pos=37
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1I: before ref_pos=19 query_pos=37
+2025-11-23 21:53:39,640 INFO:   -> insertion: advance query_pos by 1 (37->38)
+2025-11-23 21:53:39,640 INFO:   -> insertion: advance query_pos by 1 (37->38)
+2025-11-23 21:53:39,640 INFO:  CIGAR op 2X: before ref_pos=19 query_pos=38
+2025-11-23 21:53:39,640 INFO:  CIGAR op 2X: before ref_pos=19 query_pos=38
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=19 query(raw)=38 query(mapped)=38
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=19 query(raw)=38 query(mapped)=38
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=20 query(raw)=39 query(mapped)=39
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=20 query(raw)=39 query(mapped)=39
+2025-11-23 21:53:39,640 INFO:  CIGAR op 2=: before ref_pos=21 query_pos=40
+2025-11-23 21:53:39,640 INFO:  CIGAR op 2=: before ref_pos=21 query_pos=40
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=21 query(raw)=40 query(mapped)=40
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=21 query(raw)=40 query(mapped)=40
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=22 query(raw)=41 query(mapped)=41
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=1: ref=22 query(raw)=41 query(mapped)=41
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1X: before ref_pos=23 query_pos=42
+2025-11-23 21:53:39,640 INFO:  CIGAR op 1X: before ref_pos=23 query_pos=42
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=23 query(raw)=42 query(mapped)=42
+2025-11-23 21:53:39,640 INFO:   -> aligned col k=0: ref=23 query(raw)=42 query(mapped)=42
+2025-11-23 21:53:39,641 INFO:  CIGAR op 4=: before ref_pos=24 query_pos=43
+2025-11-23 21:53:39,641 INFO:  CIGAR op 4=: before ref_pos=24 query_pos=43
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=24 query(raw)=43 query(mapped)=43
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=24 query(raw)=43 query(mapped)=43
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=25 query(raw)=44 query(mapped)=44
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=25 query(raw)=44 query(mapped)=44
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=2: ref=26 query(raw)=45 query(mapped)=45
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=2: ref=26 query(raw)=45 query(mapped)=45
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=3: ref=27 query(raw)=46 query(mapped)=46
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=3: ref=27 query(raw)=46 query(mapped)=46
+2025-11-23 21:53:39,641 INFO:  CIGAR op 1X: before ref_pos=28 query_pos=47
+2025-11-23 21:53:39,641 INFO:  CIGAR op 1X: before ref_pos=28 query_pos=47
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=28 query(raw)=47 query(mapped)=47
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=28 query(raw)=47 query(mapped)=47
+2025-11-23 21:53:39,641 INFO:  CIGAR op 2=: before ref_pos=29 query_pos=48
+2025-11-23 21:53:39,641 INFO:  CIGAR op 2=: before ref_pos=29 query_pos=48
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=29 query(raw)=48 query(mapped)=48
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=29 query(raw)=48 query(mapped)=48
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=30 query(raw)=49 query(mapped)=49
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=30 query(raw)=49 query(mapped)=49
+2025-11-23 21:53:39,641 INFO:  CIGAR op 2X: before ref_pos=31 query_pos=50
+2025-11-23 21:53:39,641 INFO:  CIGAR op 2X: before ref_pos=31 query_pos=50
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=31 query(raw)=50 query(mapped)=50
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=31 query(raw)=50 query(mapped)=50
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=32 query(raw)=51 query(mapped)=51
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=32 query(raw)=51 query(mapped)=51
+2025-11-23 21:53:39,641 INFO:  CIGAR op 1=: before ref_pos=33 query_pos=52
+2025-11-23 21:53:39,641 INFO:  CIGAR op 1=: before ref_pos=33 query_pos=52
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=33 query(raw)=52 query(mapped)=52
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=33 query(raw)=52 query(mapped)=52
+2025-11-23 21:53:39,641 INFO:  CIGAR op 5X: before ref_pos=34 query_pos=53
+2025-11-23 21:53:39,641 INFO:  CIGAR op 5X: before ref_pos=34 query_pos=53
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=34 query(raw)=53 query(mapped)=53
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=34 query(raw)=53 query(mapped)=53
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=35 query(raw)=54 query(mapped)=54
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=35 query(raw)=54 query(mapped)=54
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=2: ref=36 query(raw)=55 query(mapped)=55
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=2: ref=36 query(raw)=55 query(mapped)=55
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=3: ref=37 query(raw)=56 query(mapped)=56
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=3: ref=37 query(raw)=56 query(mapped)=56
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=4: ref=38 query(raw)=57 query(mapped)=57
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=4: ref=38 query(raw)=57 query(mapped)=57
+2025-11-23 21:53:39,641 INFO:  CIGAR op 5=: before ref_pos=39 query_pos=58
+2025-11-23 21:53:39,641 INFO:  CIGAR op 5=: before ref_pos=39 query_pos=58
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=39 query(raw)=58 query(mapped)=58
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=0: ref=39 query(raw)=58 query(mapped)=58
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=40 query(raw)=59 query(mapped)=59
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=1: ref=40 query(raw)=59 query(mapped)=59
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=2: ref=41 query(raw)=60 query(mapped)=60
+2025-11-23 21:53:39,641 INFO:   -> aligned col k=2: ref=41 query(raw)=60 query(mapped)=60
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=3: ref=42 query(raw)=61 query(mapped)=61
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=3: ref=42 query(raw)=61 query(mapped)=61
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=4: ref=43 query(raw)=62 query(mapped)=62
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=4: ref=43 query(raw)=62 query(mapped)=62
+2025-11-23 21:53:39,642 INFO:  CIGAR op 5X: before ref_pos=44 query_pos=63
+2025-11-23 21:53:39,642 INFO:  CIGAR op 5X: before ref_pos=44 query_pos=63
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=44 query(raw)=63 query(mapped)=63
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=44 query(raw)=63 query(mapped)=63
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=1: ref=45 query(raw)=64 query(mapped)=64
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=1: ref=45 query(raw)=64 query(mapped)=64
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=2: ref=46 query(raw)=65 query(mapped)=65
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=2: ref=46 query(raw)=65 query(mapped)=65
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=3: ref=47 query(raw)=66 query(mapped)=66
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=3: ref=47 query(raw)=66 query(mapped)=66
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=4: ref=48 query(raw)=67 query(mapped)=67
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=4: ref=48 query(raw)=67 query(mapped)=67
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1=: before ref_pos=49 query_pos=68
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1=: before ref_pos=49 query_pos=68
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=49 query(raw)=68 query(mapped)=68
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=49 query(raw)=68 query(mapped)=68
+2025-11-23 21:53:39,642 INFO:  CIGAR op 4X: before ref_pos=50 query_pos=69
+2025-11-23 21:53:39,642 INFO:  CIGAR op 4X: before ref_pos=50 query_pos=69
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=50 query(raw)=69 query(mapped)=69
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=50 query(raw)=69 query(mapped)=69
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=1: ref=51 query(raw)=70 query(mapped)=70
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=1: ref=51 query(raw)=70 query(mapped)=70
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=2: ref=52 query(raw)=71 query(mapped)=71
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=2: ref=52 query(raw)=71 query(mapped)=71
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=3: ref=53 query(raw)=72 query(mapped)=72
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=3: ref=53 query(raw)=72 query(mapped)=72
+2025-11-23 21:53:39,642 INFO:  CIGAR op 7D: before ref_pos=54 query_pos=73
+2025-11-23 21:53:39,642 INFO:  CIGAR op 7D: before ref_pos=54 query_pos=73
+2025-11-23 21:53:39,642 INFO:   -> deletion: advance ref_pos by 7 (54->61)
+2025-11-23 21:53:39,642 INFO:   -> deletion: advance ref_pos by 7 (54->61)
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1=: before ref_pos=61 query_pos=73
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1=: before ref_pos=61 query_pos=73
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=61 query(raw)=73 query(mapped)=73
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=61 query(raw)=73 query(mapped)=73
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1X: before ref_pos=62 query_pos=74
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1X: before ref_pos=62 query_pos=74
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=62 query(raw)=74 query(mapped)=74
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=62 query(raw)=74 query(mapped)=74
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1=: before ref_pos=63 query_pos=75
+2025-11-23 21:53:39,642 INFO:  CIGAR op 1=: before ref_pos=63 query_pos=75
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=63 query(raw)=75 query(mapped)=75
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=63 query(raw)=75 query(mapped)=75
+2025-11-23 21:53:39,642 INFO:  CIGAR op 5X: before ref_pos=64 query_pos=76
+2025-11-23 21:53:39,642 INFO:  CIGAR op 5X: before ref_pos=64 query_pos=76
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=64 query(raw)=76 query(mapped)=76
+2025-11-23 21:53:39,642 INFO:   -> aligned col k=0: ref=64 query(raw)=76 query(mapped)=76
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=1: ref=65 query(raw)=77 query(mapped)=77
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=1: ref=65 query(raw)=77 query(mapped)=77
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=2: ref=66 query(raw)=78 query(mapped)=78
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=2: ref=66 query(raw)=78 query(mapped)=78
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=3: ref=67 query(raw)=79 query(mapped)=79
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=3: ref=67 query(raw)=79 query(mapped)=79
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=4: ref=68 query(raw)=80 query(mapped)=80
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=4: ref=68 query(raw)=80 query(mapped)=80
+2025-11-23 21:53:39,643 INFO:  CIGAR op 2=: before ref_pos=69 query_pos=81
+2025-11-23 21:53:39,643 INFO:  CIGAR op 2=: before ref_pos=69 query_pos=81
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=0: ref=69 query(raw)=81 query(mapped)=81
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=0: ref=69 query(raw)=81 query(mapped)=81
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=1: ref=70 query(raw)=82 query(mapped)=1
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=1: ref=70 query(raw)=82 query(mapped)=1
+2025-11-23 21:53:39,643 INFO:  CIGAR op 1X: before ref_pos=71 query_pos=83
+2025-11-23 21:53:39,643 INFO:  CIGAR op 1X: before ref_pos=71 query_pos=83
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=0: ref=71 query(raw)=83 query(mapped)=2
+2025-11-23 21:53:39,643 INFO:   -> aligned col k=0: ref=71 query(raw)=83 query(mapped)=2
+2025-11-23 21:53:39,643 INFO:  CIGAR op 79S: before ref_pos=72 query_pos=84
+2025-11-23 21:53:39,643 INFO:  CIGAR op 79S: before ref_pos=72 query_pos=84
+2025-11-23 21:53:39,643 INFO:   -> soft-clip: advance query_pos by 79 (84->163)
+2025-11-23 21:53:39,643 INFO:   -> soft-clip: advance query_pos by 79 (84->163)
+2025-11-23 21:53:39,643 INFO:   2hga_trim_10f_3di_2vsv_PDZ_10f_3di_x2_10f_ssw_output.txt: parsed 63 3di aligned pairs (after mod mapping)
+2025-11-23 21:53:39,643 INFO: Parsing SSW file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/tmalign_3di_20251123215333/alignment_results/2hga_trim_8f_3di_2vsv_PDZ_8f_3di_x2_8f_ssw_output.txt
+2025-11-23 21:53:39,643 DEBUG: Inferred query_duped_len=128 from fasta 2vsv_PDZ_8f_3di_x2
+2025-11-23 21:53:39,643 INFO: Parsing SAM entry qname=2vsv_PDZ_8f_3di_x2 flag=0 rname=2hga_trim_8f_3di pos=3 cigar=20S1X1=2X1=1X1=5X1I1=5X2=1X4=1X1=3X1=2X2I1=1X1=2X3=3X1D2X1=1X4=1X1=179S seq_len=256 query_duped_len=128
+2025-11-23 21:53:39,643 INFO: Parsing SAM entry qname=2vsv_PDZ_8f_3di_x2 flag=0 rname=2hga_trim_8f_3di pos=3 cigar=20S1X1=2X1=1X1=5X1I1=5X2=1X4=1X1=3X1=2X2I1=1X1=2X3=3X1D2X1=1X4=1X1=179S seq_len=256 query_duped_len=128
+2025-11-23 21:53:39,643 INFO:  CIGAR op 20S: before ref_pos=3 query_pos=1
+2025-11-23 21:53:39,643 INFO:  CIGAR op 20S: before ref_pos=3 query_pos=1
+2025-11-23 21:53:39,644 INFO:   -> soft-clip: advance query_pos by 20 (1->21)
+2025-11-23 21:53:39,644 INFO:   -> soft-clip: advance query_pos by 20 (1->21)
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1X: before ref_pos=3 query_pos=21
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1X: before ref_pos=3 query_pos=21
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=3 query(raw)=21 query(mapped)=21
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=3 query(raw)=21 query(mapped)=21
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=4 query_pos=22
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=4 query_pos=22
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=4 query(raw)=22 query(mapped)=22
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=4 query(raw)=22 query(mapped)=22
+2025-11-23 21:53:39,644 INFO:  CIGAR op 2X: before ref_pos=5 query_pos=23
+2025-11-23 21:53:39,644 INFO:  CIGAR op 2X: before ref_pos=5 query_pos=23
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=5 query(raw)=23 query(mapped)=23
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=5 query(raw)=23 query(mapped)=23
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=1: ref=6 query(raw)=24 query(mapped)=24
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=1: ref=6 query(raw)=24 query(mapped)=24
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=7 query_pos=25
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=7 query_pos=25
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=7 query(raw)=25 query(mapped)=25
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=7 query(raw)=25 query(mapped)=25
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1X: before ref_pos=8 query_pos=26
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1X: before ref_pos=8 query_pos=26
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=8 query(raw)=26 query(mapped)=26
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=8 query(raw)=26 query(mapped)=26
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=9 query_pos=27
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=9 query_pos=27
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=9 query(raw)=27 query(mapped)=27
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=9 query(raw)=27 query(mapped)=27
+2025-11-23 21:53:39,644 INFO:  CIGAR op 5X: before ref_pos=10 query_pos=28
+2025-11-23 21:53:39,644 INFO:  CIGAR op 5X: before ref_pos=10 query_pos=28
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=10 query(raw)=28 query(mapped)=28
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=10 query(raw)=28 query(mapped)=28
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=1: ref=11 query(raw)=29 query(mapped)=29
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=1: ref=11 query(raw)=29 query(mapped)=29
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=2: ref=12 query(raw)=30 query(mapped)=30
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=2: ref=12 query(raw)=30 query(mapped)=30
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=3: ref=13 query(raw)=31 query(mapped)=31
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=3: ref=13 query(raw)=31 query(mapped)=31
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=4: ref=14 query(raw)=32 query(mapped)=32
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=4: ref=14 query(raw)=32 query(mapped)=32
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1I: before ref_pos=15 query_pos=33
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1I: before ref_pos=15 query_pos=33
+2025-11-23 21:53:39,644 INFO:   -> insertion: advance query_pos by 1 (33->34)
+2025-11-23 21:53:39,644 INFO:   -> insertion: advance query_pos by 1 (33->34)
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=15 query_pos=34
+2025-11-23 21:53:39,644 INFO:  CIGAR op 1=: before ref_pos=15 query_pos=34
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=15 query(raw)=34 query(mapped)=34
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=15 query(raw)=34 query(mapped)=34
+2025-11-23 21:53:39,644 INFO:  CIGAR op 5X: before ref_pos=16 query_pos=35
+2025-11-23 21:53:39,644 INFO:  CIGAR op 5X: before ref_pos=16 query_pos=35
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=16 query(raw)=35 query(mapped)=35
+2025-11-23 21:53:39,644 INFO:   -> aligned col k=0: ref=16 query(raw)=35 query(mapped)=35
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=17 query(raw)=36 query(mapped)=36
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=17 query(raw)=36 query(mapped)=36
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=2: ref=18 query(raw)=37 query(mapped)=37
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=2: ref=18 query(raw)=37 query(mapped)=37
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=3: ref=19 query(raw)=38 query(mapped)=38
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=3: ref=19 query(raw)=38 query(mapped)=38
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=4: ref=20 query(raw)=39 query(mapped)=39
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=4: ref=20 query(raw)=39 query(mapped)=39
+2025-11-23 21:53:39,645 INFO:  CIGAR op 2=: before ref_pos=21 query_pos=40
+2025-11-23 21:53:39,645 INFO:  CIGAR op 2=: before ref_pos=21 query_pos=40
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=21 query(raw)=40 query(mapped)=40
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=21 query(raw)=40 query(mapped)=40
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=22 query(raw)=41 query(mapped)=41
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=22 query(raw)=41 query(mapped)=41
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1X: before ref_pos=23 query_pos=42
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1X: before ref_pos=23 query_pos=42
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=23 query(raw)=42 query(mapped)=42
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=23 query(raw)=42 query(mapped)=42
+2025-11-23 21:53:39,645 INFO:  CIGAR op 4=: before ref_pos=24 query_pos=43
+2025-11-23 21:53:39,645 INFO:  CIGAR op 4=: before ref_pos=24 query_pos=43
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=24 query(raw)=43 query(mapped)=43
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=24 query(raw)=43 query(mapped)=43
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=25 query(raw)=44 query(mapped)=44
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=25 query(raw)=44 query(mapped)=44
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=2: ref=26 query(raw)=45 query(mapped)=45
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=2: ref=26 query(raw)=45 query(mapped)=45
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=3: ref=27 query(raw)=46 query(mapped)=46
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=3: ref=27 query(raw)=46 query(mapped)=46
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1X: before ref_pos=28 query_pos=47
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1X: before ref_pos=28 query_pos=47
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=28 query(raw)=47 query(mapped)=47
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=28 query(raw)=47 query(mapped)=47
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1=: before ref_pos=29 query_pos=48
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1=: before ref_pos=29 query_pos=48
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=29 query(raw)=48 query(mapped)=48
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=29 query(raw)=48 query(mapped)=48
+2025-11-23 21:53:39,645 INFO:  CIGAR op 3X: before ref_pos=30 query_pos=49
+2025-11-23 21:53:39,645 INFO:  CIGAR op 3X: before ref_pos=30 query_pos=49
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=30 query(raw)=49 query(mapped)=49
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=30 query(raw)=49 query(mapped)=49
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=31 query(raw)=50 query(mapped)=50
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=1: ref=31 query(raw)=50 query(mapped)=50
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=2: ref=32 query(raw)=51 query(mapped)=51
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=2: ref=32 query(raw)=51 query(mapped)=51
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1=: before ref_pos=33 query_pos=52
+2025-11-23 21:53:39,645 INFO:  CIGAR op 1=: before ref_pos=33 query_pos=52
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=33 query(raw)=52 query(mapped)=52
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=33 query(raw)=52 query(mapped)=52
+2025-11-23 21:53:39,645 INFO:  CIGAR op 2X: before ref_pos=34 query_pos=53
+2025-11-23 21:53:39,645 INFO:  CIGAR op 2X: before ref_pos=34 query_pos=53
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=34 query(raw)=53 query(mapped)=53
+2025-11-23 21:53:39,645 INFO:   -> aligned col k=0: ref=34 query(raw)=53 query(mapped)=53
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=35 query(raw)=54 query(mapped)=54
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=35 query(raw)=54 query(mapped)=54
+2025-11-23 21:53:39,646 INFO:  CIGAR op 2I: before ref_pos=36 query_pos=55
+2025-11-23 21:53:39,646 INFO:  CIGAR op 2I: before ref_pos=36 query_pos=55
+2025-11-23 21:53:39,646 INFO:   -> insertion: advance query_pos by 2 (55->57)
+2025-11-23 21:53:39,646 INFO:   -> insertion: advance query_pos by 2 (55->57)
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1=: before ref_pos=36 query_pos=57
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1=: before ref_pos=36 query_pos=57
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=36 query(raw)=57 query(mapped)=57
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=36 query(raw)=57 query(mapped)=57
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1X: before ref_pos=37 query_pos=58
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1X: before ref_pos=37 query_pos=58
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=37 query(raw)=58 query(mapped)=58
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=37 query(raw)=58 query(mapped)=58
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1=: before ref_pos=38 query_pos=59
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1=: before ref_pos=38 query_pos=59
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=38 query(raw)=59 query(mapped)=59
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=38 query(raw)=59 query(mapped)=59
+2025-11-23 21:53:39,646 INFO:  CIGAR op 2X: before ref_pos=39 query_pos=60
+2025-11-23 21:53:39,646 INFO:  CIGAR op 2X: before ref_pos=39 query_pos=60
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=39 query(raw)=60 query(mapped)=60
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=39 query(raw)=60 query(mapped)=60
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=40 query(raw)=61 query(mapped)=61
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=40 query(raw)=61 query(mapped)=61
+2025-11-23 21:53:39,646 INFO:  CIGAR op 3=: before ref_pos=41 query_pos=62
+2025-11-23 21:53:39,646 INFO:  CIGAR op 3=: before ref_pos=41 query_pos=62
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=41 query(raw)=62 query(mapped)=62
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=41 query(raw)=62 query(mapped)=62
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=42 query(raw)=63 query(mapped)=63
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=42 query(raw)=63 query(mapped)=63
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=2: ref=43 query(raw)=64 query(mapped)=64
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=2: ref=43 query(raw)=64 query(mapped)=64
+2025-11-23 21:53:39,646 INFO:  CIGAR op 3X: before ref_pos=44 query_pos=65
+2025-11-23 21:53:39,646 INFO:  CIGAR op 3X: before ref_pos=44 query_pos=65
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=44 query(raw)=65 query(mapped)=65
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=44 query(raw)=65 query(mapped)=65
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=45 query(raw)=66 query(mapped)=66
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=45 query(raw)=66 query(mapped)=66
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=2: ref=46 query(raw)=67 query(mapped)=67
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=2: ref=46 query(raw)=67 query(mapped)=67
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1D: before ref_pos=47 query_pos=68
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1D: before ref_pos=47 query_pos=68
+2025-11-23 21:53:39,646 INFO:   -> deletion: advance ref_pos by 1 (47->48)
+2025-11-23 21:53:39,646 INFO:   -> deletion: advance ref_pos by 1 (47->48)
+2025-11-23 21:53:39,646 INFO:  CIGAR op 2X: before ref_pos=48 query_pos=68
+2025-11-23 21:53:39,646 INFO:  CIGAR op 2X: before ref_pos=48 query_pos=68
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=48 query(raw)=68 query(mapped)=68
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=0: ref=48 query(raw)=68 query(mapped)=68
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=49 query(raw)=69 query(mapped)=69
+2025-11-23 21:53:39,646 INFO:   -> aligned col k=1: ref=49 query(raw)=69 query(mapped)=69
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1=: before ref_pos=50 query_pos=70
+2025-11-23 21:53:39,646 INFO:  CIGAR op 1=: before ref_pos=50 query_pos=70
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=50 query(raw)=70 query(mapped)=70
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=50 query(raw)=70 query(mapped)=70
+2025-11-23 21:53:39,647 INFO:  CIGAR op 1X: before ref_pos=51 query_pos=71
+2025-11-23 21:53:39,647 INFO:  CIGAR op 1X: before ref_pos=51 query_pos=71
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=51 query(raw)=71 query(mapped)=71
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=51 query(raw)=71 query(mapped)=71
+2025-11-23 21:53:39,647 INFO:  CIGAR op 4=: before ref_pos=52 query_pos=72
+2025-11-23 21:53:39,647 INFO:  CIGAR op 4=: before ref_pos=52 query_pos=72
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=52 query(raw)=72 query(mapped)=72
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=52 query(raw)=72 query(mapped)=72
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=1: ref=53 query(raw)=73 query(mapped)=73
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=1: ref=53 query(raw)=73 query(mapped)=73
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=2: ref=54 query(raw)=74 query(mapped)=74
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=2: ref=54 query(raw)=74 query(mapped)=74
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=3: ref=55 query(raw)=75 query(mapped)=75
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=3: ref=55 query(raw)=75 query(mapped)=75
+2025-11-23 21:53:39,647 INFO:  CIGAR op 1X: before ref_pos=56 query_pos=76
+2025-11-23 21:53:39,647 INFO:  CIGAR op 1X: before ref_pos=56 query_pos=76
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=56 query(raw)=76 query(mapped)=76
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=56 query(raw)=76 query(mapped)=76
+2025-11-23 21:53:39,647 INFO:  CIGAR op 1=: before ref_pos=57 query_pos=77
+2025-11-23 21:53:39,647 INFO:  CIGAR op 1=: before ref_pos=57 query_pos=77
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=57 query(raw)=77 query(mapped)=77
+2025-11-23 21:53:39,647 INFO:   -> aligned col k=0: ref=57 query(raw)=77 query(mapped)=77
+2025-11-23 21:53:39,647 INFO:  CIGAR op 179S: before ref_pos=58 query_pos=78
+2025-11-23 21:53:39,647 INFO:  CIGAR op 179S: before ref_pos=58 query_pos=78
+2025-11-23 21:53:39,647 INFO:   -> soft-clip: advance query_pos by 179 (78->257)
+2025-11-23 21:53:39,647 INFO:   -> soft-clip: advance query_pos by 179 (78->257)
+2025-11-23 21:53:39,647 INFO:   2hga_trim_8f_3di_2vsv_PDZ_8f_3di_x2_8f_ssw_output.txt: parsed 54 3di aligned pairs (after mod mapping)
+2025-11-23 21:53:39,647 INFO: Detected global SSW->TM j-offset 0; applying correction
+
+File: 2hga_trim_9f_3di_2vsv_PDZ_9f_3di_x2_9f_ssw_output.txt
+  TM count=75, SSW count=21
+  TP=15, FP=6, FN=60
+  sample matches:
+    (15, 6, (17, 81), (16, 82))
+    (16, 7, (18, 82), (19, 83))
+    (17, 8, (19, 1), (20, 1))
+    (18, 9, (20, 2), (21, 2))
+    (19, 10, (21, 3), (22, 3))
+    (20, 11, (22, 4), (23, 5))
+    (21, 12, (23, 5), (24, 6))
+    (22, 13, (24, 6), (25, 7))
+    (23, 14, (25, 7), (26, 8))
+    (24, 15, (26, 8), (27, 9))
+  first TM pairs: [(19, 1), (20, 2), (21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10)]
+  first SSW pairs (raw parsed): [(7, 41), (8, 42), (9, 43), (10, 44), (11, 45), (12, 46), (16, 47), (19, 48), (20, 49), (21, 50)]
+  first SSW pairs (mapped B): [(7, 76), (8, 77), (9, 78), (10, 79), (11, 80), (12, 81), (16, 82), (19, 83), (20, 1), (21, 2)]
+  first SSW pairs (rotated): [(7, 76), (8, 77), (9, 78), (10, 79), (11, 80), (12, 81), (16, 82), (19, 83), (20, 1), (21, 2)]
+
+File: 2hga_trim_10f_3di_2vsv_PDZ_10f_3di_x2_10f_ssw_output.txt
+  TM count=75, SSW count=63
+  TP=42, FP=21, FN=33
+  sample matches:
+    (26, 11, (28, 10), (29, 11))
+    (27, 12, (29, 11), (30, 12))
+    (28, 13, (30, 12), (31, 13))
+    (29, 14, (31, 13), (32, 14))
+    (30, 15, (32, 14), (33, 15))
+    (31, 16, (33, 15), (34, 16))
+    (32, 17, (34, 16), (35, 17))
+    (33, 18, (35, 17), (36, 18))
+    (35, 19, (37, 19), (38, 19))
+    (36, 20, (39, 20), (39, 20))
+  first TM pairs: [(19, 1), (20, 2), (21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10)]
+  first SSW pairs (raw parsed): [(14, 2), (15, 3), (16, 4), (17, 5), (18, 6), (19, 7), (20, 8), (21, 9), (22, 10), (29, 11)]
+  first SSW pairs (mapped B): [(14, 2), (15, 3), (16, 4), (17, 5), (18, 6), (19, 7), (20, 8), (21, 9), (22, 10), (29, 11)]
+  first SSW pairs (rotated): [(1, 70), (2, 71), (14, 2), (15, 3), (16, 4), (17, 5), (18, 6), (19, 7), (20, 8), (21, 9)]
+
+File: 2hga_trim_8f_3di_2vsv_PDZ_8f_3di_x2_8f_ssw_output.txt
+  TM count=75, SSW count=54
+  TP=53, FP=1, FN=22
+  sample matches:
+    (18, 0, (20, 2), (21, 3))
+    (19, 1, (21, 3), (22, 4))
+    (20, 2, (22, 4), (23, 5))
+    (21, 3, (23, 5), (24, 6))
+    (22, 4, (24, 6), (25, 7))
+    (23, 5, (25, 7), (26, 8))
+    (24, 6, (26, 8), (27, 9))
+    (25, 7, (27, 9), (28, 10))
+    (26, 8, (28, 10), (29, 11))
+    (27, 9, (29, 11), (30, 12))
+  first TM pairs: [(19, 1), (20, 2), (21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10)]
+  first SSW pairs (raw parsed): [(21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10), (29, 11), (30, 12)]
+  first SSW pairs (mapped B): [(21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10), (29, 11), (30, 12)]
+  first SSW pairs (rotated): [(21, 3), (22, 4), (23, 5), (24, 6), (25, 7), (26, 8), (27, 9), (28, 10), (29, 11), (30, 12)]

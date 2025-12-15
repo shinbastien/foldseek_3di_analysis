@@ -1,0 +1,291 @@
+Pair: Sap_C vs Sap_C_circular_permutation
+Run dir: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0
+w: 0
+
+TM pairs (first 200 shown):
+38	1
+39	2
+40	3
+41	4
+42	5
+43	6
+44	7
+45	8
+46	9
+47	10
+48	11
+49	12
+50	13
+51	14
+52	15
+53	16
+54	17
+55	18
+56	19
+57	20
+58	21
+59	22
+60	23
+61	24
+62	25
+63	26
+64	27
+65	28
+66	29
+67	30
+68	31
+69	32
+70	33
+71	34
+72	35
+73	36
+74	37
+75	38
+76	39
+77	40
+78	41
+2	42
+3	43
+4	44
+5	45
+6	46
+7	47
+8	48
+9	49
+10	50
+11	51
+12	52
+13	53
+14	54
+15	55
+16	56
+17	57
+18	58
+19	59
+20	60
+21	61
+22	62
+23	63
+24	64
+25	65
+26	66
+27	67
+28	68
+29	69
+30	70
+31	71
+32	72
+33	73
+34	74
+35	75
+36	76
+37	77
+79	78
+
+Per-variant summaries:
+------------------------------------------------------------
+3di_identity: 0.765625
+3di_identity_alignment_len: 64
+3di_identity_match_count: 49
+FN: 40
+FN_Q: 13
+FN_T: 14
+FP: 26
+FP_Q: 0
+FP_T: 0
+Q3_range: (12, 75)
+Qtm_range: (2, 79)
+T3_range: (1, 78)
+TN_Q: 1
+TN_T: 0
+TP: 38
+TP_Q: 64
+TP_T: 64
+Ttm_range: (1, 78)
+block_f1_calc: 0.9507042253521127
+block_recall_tau: 1.0
+coverage_by_query: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_circular_permutation_10f_result_coverage_query.tsv
+coverage_by_target: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_circular_permutation_10f_result_coverage_target.tsv
+cp_ok: True
+cp_span_ok: True
+cp_wrap_ok: True
+cutpoint_s: 1
+f1: 0.5352112676056338
+jaccard: 0.36538461538461536
+lctr: 38
+len_Q3: 64
+len_Qtm: 78
+len_T3: 78
+len_Ttm: 78
+len_target: 78
+overlap_Q: 64
+overlap_T: 78
+pair: Sap_C_vs_Sap_C_circular_permutation
+precision: 0.59375
+precision_Q: 1.0
+precision_T: 1.0
+query_name: Sap_C
+range_query_f1: 0.9014084507042254
+range_query_precision: 1.0
+range_query_recall: 0.8205128205128205
+range_target_f1: 1.0
+range_target_precision: 1.0
+range_target_recall: 1.0
+recall: 0.48717948717948717
+recall_Q: 0.8205128205128205
+recall_T: 1.0
+sens_Q_block: 0.8311688311688312
+sens_T_block: 0.8205128205128205
+spec_Q_block: 1.0
+spec_T_block: 1.0
+ssw_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt
+ssw_pairs_count: 64
+ssw_pairs_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/Sap_C_10f_3di_Sap_C_circular_permutation_10f_3di_x2_10f_ssw_output.txt.pairs.tsv
+ssw_score: 136.0
+target_name: Sap_C_circular_permutation
+tm_align_visual: 
+tm_pairs_count: 78
+tm_pairs_list: 38-1;39-2;40-3;41-4;42-5;43-6;44-7;45-8;46-9;47-10;48-11;49-12;50-13;51-14;52-15;53-16;54-17;55-18;56-19;57-20;58-21;59-22;60-23;61-24;62-25;63-26;64-27;65-28;66-29;67-30;68-31;69-32;70-33;71-34;72-35;73-36;74-37;75-38;76-39;77-40;78-41;2-42;3-43;4-44;5-45;6-46;7-47;8-48;9-49;10-50;11-51;12-52;13-53;14-54;15-55;16-56;17-57;18-58;19-59;20-60;21-61;22-62;23-63;24-64;25-65;26-66;27-67;28-68;29-69;30-70;31-71;32-72;33-73;34-74;35-75;36-76;37-77;79-78
+tm_segs: [(1, 78)]
+union_file: 
+union_text: 
+variant: 10f
+w: 0
+
+------------------------------------------------------------
+3di_identity: 0.7846153846153846
+3di_identity_alignment_len: 65
+3di_identity_match_count: 51
+FN: 61
+FN_Q: 12
+FN_T: 27
+FP: 48
+FP_Q: 0
+FP_T: 0
+Q3_range: (11, 75)
+Qtm_range: (2, 79)
+T3_range: (10, 78)
+TN_Q: 1
+TN_T: 0
+TP: 17
+TP_Q: 65
+TP_T: 51
+Ttm_range: (1, 78)
+block_f1_calc: 0.9239332096474953
+block_recall_tau: 1.0
+coverage_by_query: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_circular_permutation_9f_result_coverage_query.tsv
+coverage_by_target: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_circular_permutation_9f_result_coverage_target.tsv
+cp_ok: True
+cp_span_ok: True
+cp_wrap_ok: True
+cutpoint_s: 1
+f1: 0.23776223776223776
+jaccard: 0.1349206349206349
+lctr: 17
+len_Q3: 65
+len_Qtm: 78
+len_T3: 69
+len_Ttm: 78
+len_target: 78
+overlap_Q: 65
+overlap_T: 69
+pair: Sap_C_vs_Sap_C_circular_permutation
+precision: 0.26153846153846155
+precision_Q: 1.0
+precision_T: 1.0
+query_name: Sap_C
+range_query_f1: 0.9090909090909091
+range_query_precision: 1.0
+range_query_recall: 0.8333333333333334
+range_target_f1: 0.9387755102040816
+range_target_precision: 1.0
+range_target_recall: 0.8846153846153846
+recall: 0.21794871794871795
+recall_Q: 0.8333333333333334
+recall_T: 0.8846153846153846
+sens_Q_block: 0.8441558441558441
+sens_T_block: 0.6538461538461539
+spec_Q_block: 1.0
+spec_T_block: 1.0
+ssw_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt
+ssw_pairs_count: 65
+ssw_pairs_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/Sap_C_9f_3di_Sap_C_circular_permutation_9f_3di_x2_9f_ssw_output.txt.pairs.tsv
+ssw_score: 173.0
+target_name: Sap_C_circular_permutation
+tm_align_visual: 
+tm_pairs_count: 78
+tm_pairs_list: 38-1;39-2;40-3;41-4;42-5;43-6;44-7;45-8;46-9;47-10;48-11;49-12;50-13;51-14;52-15;53-16;54-17;55-18;56-19;57-20;58-21;59-22;60-23;61-24;62-25;63-26;64-27;65-28;66-29;67-30;68-31;69-32;70-33;71-34;72-35;73-36;74-37;75-38;76-39;77-40;78-41;2-42;3-43;4-44;5-45;6-46;7-47;8-48;9-49;10-50;11-51;12-52;13-53;14-54;15-55;16-56;17-57;18-58;19-59;20-60;21-61;22-62;23-63;24-64;25-65;26-66;27-67;28-68;29-69;30-70;31-71;32-72;33-73;34-74;35-75;36-76;37-77;79-78
+tm_segs: [(1, 78)]
+union_file: 
+union_text: 
+variant: 9f
+w: 0
+
+------------------------------------------------------------
+3di_identity: 0.9473684210526315
+3di_identity_alignment_len: 76
+3di_identity_match_count: 72
+FN: 38
+FN_Q: 1
+FN_T: 2
+FP: 36
+FP_Q: 0
+FP_T: 0
+Q3_range: (2, 77)
+Qtm_range: (2, 79)
+T3_range: (1, 78)
+TN_Q: 1
+TN_T: 0
+TP: 40
+TP_Q: 76
+TP_T: 76
+Ttm_range: (1, 78)
+block_f1_calc: 0.9935064935064934
+block_recall_tau: 1.0
+coverage_by_query: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_circular_permutation_8f_result_coverage_query.tsv
+coverage_by_target: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_circular_permutation_8f_result_coverage_target.tsv
+cp_ok: True
+cp_span_ok: True
+cp_wrap_ok: True
+cutpoint_s: 1
+f1: 0.5194805194805194
+jaccard: 0.3508771929824561
+lctr: 40
+len_Q3: 76
+len_Qtm: 78
+len_T3: 78
+len_Ttm: 78
+len_target: 78
+overlap_Q: 76
+overlap_T: 78
+pair: Sap_C_vs_Sap_C_circular_permutation
+precision: 0.5263157894736842
+precision_Q: 1.0
+precision_T: 1.0
+query_name: Sap_C
+range_query_f1: 0.9870129870129869
+range_query_precision: 1.0
+range_query_recall: 0.9743589743589743
+range_target_f1: 1.0
+range_target_precision: 1.0
+range_target_recall: 1.0
+recall: 0.5128205128205128
+recall_Q: 0.9743589743589743
+recall_T: 1.0
+sens_Q_block: 0.987012987012987
+sens_T_block: 0.9743589743589743
+spec_Q_block: 1.0
+spec_T_block: 1.0
+ssw_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/alignment_results/Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt
+ssw_pairs_count: 76
+ssw_pairs_file: /mnt/scratch/jugipalace/foldseek_new_3di/tmp/Sap_C_vs_Sap_C_circular_permutation_w0/Sap_C_8f_3di_Sap_C_circular_permutation_8f_3di_x2_8f_ssw_output.txt.pairs.tsv
+ssw_score: 332.0
+target_name: Sap_C_circular_permutation
+tm_align_visual: 
+tm_pairs_count: 78
+tm_pairs_list: 38-1;39-2;40-3;41-4;42-5;43-6;44-7;45-8;46-9;47-10;48-11;49-12;50-13;51-14;52-15;53-16;54-17;55-18;56-19;57-20;58-21;59-22;60-23;61-24;62-25;63-26;64-27;65-28;66-29;67-30;68-31;69-32;70-33;71-34;72-35;73-36;74-37;75-38;76-39;77-40;78-41;2-42;3-43;4-44;5-45;6-46;7-47;8-48;9-49;10-50;11-51;12-52;13-53;14-54;15-55;16-56;17-57;18-58;19-59;20-60;21-61;22-62;23-63;24-64;25-65;26-66;27-67;28-68;29-69;30-70;31-71;32-72;33-73;34-74;35-75;36-76;37-77;79-78
+tm_segs: [(1, 78)]
+union_file: 
+union_text: 
+variant: 8f
+w: 0
